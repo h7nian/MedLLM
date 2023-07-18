@@ -1,0 +1,2688 @@
+{
+  "version": "mimic4",
+  "data": [
+    {
+      "title": "10053872-DS-7",
+      "paragraphs": [
+        {
+          "context": "Allergies: Sulfa (Sulfonamides) / Erythromycin BaseAttending: ___.History of Present Illness: Patient is a ___ year old female status post uterine artery  fibroid embolization by ___ on ___ who was discharged ___ and  around midnight awoke with right groin pain. The patient noticed  that her right groin appeared swollen and felt slightly firm.  This area of swelling seemed to increase in size. The patient  also felt pain radiating across her lower abdomen, causing her  to \"double over in pain.\" She also felt it difficult to  straighten her right leg without pain. She called the  interventional radiology physician's assistant, who instructed  her to come to the emergency department.  In the ED, patient was found by ultrasound to have a right groin  pseudoaneurysm. Patient was admitted for thrombin injection of  pseudoaneurysm.  On the floor, patient reported right groin pain of ___. She had  no other complaints. Review of sytems (+) Per HPI (-) Denies fever, chills, night sweats, recent weight loss or  gain. Denies headache, sinus tenderness, rhinorrhea or  congestion. Denied cough, shortness of breath. Denied chest pain  or tightness, palpitations. Denied nausea, vomiting, diarrhea,  constipation or abdominal pain. No recent change in bowel or  bladder habits. No dysuria.Past Medical History: 1. Rheumatoid Arthrits 2. Irritable Bowel Syndrome 3. Bicuspid aortic valve (no TTE in chart).  Past Surgical History 1. Bilateral knee arthroscopy 2. Bilateral ___ Metatarsal surgerySocial History: ___Physical Exam:  Vitals T: 98.4 BP:96/60 P: 63 R:18 O2: 98 RA General Alert, oriented, no acute distress HEENT Sclera anicteric, MMM, oropharynx clear Neck supple, JVP not elevated, no LAD Lungs Clear to auscultation bilaterally, no wheezes, rales,  ronchi CV Regular rate and rhythm, normal S1 + S2, no murmurs, rubs,  gallops Abdomen soft, non-tender, non-distended, bowel sounds present,  no rebound tenderness or guarding, no organomegaly Ext Warm, well perfused, 2+ pulses, no clubbing, cyanosis or  edema Right Groin Appears slightly swollen, no erythema, +bruit  auscultated, +tenderness to palpation.Brief Hospital Course: This is a ___ year old female with uterine fibroid embolization  on ___ who presented with right groin pain and swelling  determined by ultrasound to be a pseudoaneurysm.  1) Pseudoaneurysm: Patient presented with psuedoaneurysm  confirmed by ultrasound that was secondary to her recent uterine  fibroid embolization on ___. On ___ patient underwent  psuedoaneurysm thrombin injection. Ultrasound on ___ indicated  pseudoaneurysm had been thrombosed with remaining femoral artery  patent. A repeat US on ___ prior to discharge also demonstrated  thrombosed right femoral artery  pseudoaneurysm and patent right common and superficial femoral  arteries and veins. Following thrombin injection patient  experienced right groin pain. She also experienced pain in her  pelvic region thought to be secondary to fibroids responding to  embolization procedure. Pain initially treated with intravenous  morphine and transitioned to oral oxycodone at time of  discharge. She was given a prescription for oxycodone 5mg ___  tabs TID as needed for pain. She was instructed not to drive or  operate heavy machinery while taking this medication. She was  also prescribed ibuprofen 800 mg PO TID to reduce inflammation  and instructed to take this medication with food and water.  Post-procedure follow up to be arranged by ___,  interventional radiology ___.  2) Constipation: Patient experienced constipation during this  admission. Last bowel movement day prior to admission. Patient  reports that she has irritable bowel syndrome with constipation  at baseline. Likely constipation worsened due to patient taking  narcotics for pain control. Patient started on bowel regimen  including colace, senna and lactulose. Patient was discharged  with a prescription for oral lactulose. She will contact her  primary care physician if she is unable to have a bowel movement  within ___ hours of discharge.    3)Rheumatoid Arthritis:Stable during this admission. Patient was  continued on outpatient regimen of prednisone and folate.  Patient had taken weekly dose of methotrexate prior to  admission.Medications on Admission: 1. Prednisone 5mg QDAY 2. Folate 1 mg QDAY 3. Methotrexate 10mg Q wk 4. Culturale (probiotic) dailyDischarge Disposition: Home",
+          "qas": [
+            {
+              "question": "(Text Summarization) What is the patient's primary diagnosis?",
+              "id": 1,
+              "answers": [
+                "The patient's primary diagnosis is right groin pseudoaneurysm."
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the diagnosis?",
+              "id": 2,
+              "answers": [
+                "Patient was found by ultrasound to have a right groin pseudoaneurysm.",
+                "Patient presented with psuedoaneurysm confirmed by ultrasound that was secondary to her recent uterine fibroid embolization.",
+                "Ultrasound on ___ indicated pseudoaneurysm had been thrombosed with remaining femoral artery patent.",
+                "A repeat US on ___ prior to discharge also demonstrated thrombosed right femoral artery pseudoaneurysm and patent right common and superficial femoral arteries and veins."
+              ]
+            },
+            {
+              "question": "(Text Summarization) What are the comorbidities of the patient?",
+              "id": 3,
+              "answers": [
+                "The patient has rheumatoid arthritis and irritable bowel syndrome."
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the comorbidities?",
+              "id": 4,
+              "answers": [
+                "Past Medical History: 1. Rheumatoid Arthrits 2. Irritable Bowel Syndrome 3. Bicuspid aortic valve (no TTE in chart).",
+                "Patient reports that she has irritable bowel syndrome with constipation at baseline.",
+                "Rheumatoid Arthritis:Stable during this admission. Patient was continued on outpatient regimen of prednisone and folate. Patient had taken weekly dose of methotrexate prior to admission."
+              ]
+            },
+            {
+              "question": "(Named Entity Recognition) List all the medications mentioned in the discharge summary.",
+              "id": 5,
+              "answers": [
+                "Prednisone",
+                "Folate",
+                "Methotrexate",
+                "Culturale (probiotic) daily",
+                "Oxycodone",
+                "Ibuprofen"
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the medications?",
+              "id": 6,
+              "answers": [
+                "Medications on Admission: 1. Prednisone 5mg QDAY 2. Folate 1 mg QDAY 3. Methotrexate 10mg Q wk 4. Culturale (probiotic) daily",
+                "Pain initially treated with intravenous morphine and transitioned to oral oxycodone at time of discharge. She was given a prescription for oxycodone 5mg ___ tabs TID as needed for pain. She was instructed not to drive or operate heavy machinery while taking this medication. She was also prescribed ibuprofen 800 mg PO TID to reduce inflammation and instructed to take this medication with food and water.",
+                "Patient was continued on outpatient regimen of prednisone and folate. Patient had taken weekly dose of methotrexate prior to admission."
+              ]
+            },
+            {
+              "question": "(Named Entity Recognition) List all the labs mentioned in the discharge summary.",
+              "id": 7,
+              "answers": [
+                "None mentioned."
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the labs?",
+              "id": 8,
+              "answers": [
+                "None mentioned."
+              ]
+            },
+            {
+              "question": "(Text Summarization) Provide a brief summary of the history treatment plan for the patient?",
+              "id": 9,
+              "answers": [
+                "The patient was admitted for thrombin injection of pseudoaneurysm. Pain initially treated with intravenous morphine and transitioned to oral oxycodone at time of discharge. She was given a prescription for oxycodone 5mg ___ tabs TID as needed for pain. She was instructed not to drive or operate heavy machinery while taking this medication. She was also prescribed ibuprofen 800 mg PO TID to reduce inflammation and instructed to take this medication with food and water. Patient experienced constipation during this admission and was started on bowel regimen including colace, senna, and lactulose."
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the history treatment plan for the patient?",
+              "id": 10,
+              "answers": [
+                "Patient was admitted for thrombin injection of pseudoaneurysm. Pain initially treated with intravenous morphine and transitioned to oral oxycodone at time of discharge. She was given a prescription for oxycodone 5mg ___ tabs TID as needed for pain. She was instructed not to drive or operate heavy machinery while taking this medication. She was also prescribed ibuprofen 800 mg PO TID to reduce inflammation and instructed to take this medication with food and water.",
+                "Patient experienced constipation during this admission. Last bowel movement day prior to admission. Likely constipation worsened due to patient taking narcotics for pain control. Patient started on bowel regimen including colace, senna, and lactulose. Patient was discharged with a prescription for oral lactulose. She will contact her primary care physician if she is unable to have a bowel movement within ___ hours of discharge."
+              ]
+            },
+            {
+              "question": "(Text Summarization) Provide a brief summary of the future treatment plan for the patient?",
+              "answers": [
+                "The patient will have post-procedure follow-up arranged by interventional radiology, and she has been discharged with prescriptions for oxycodone and ibuprofen to manage pain. She has also been prescribed lactulose to manage constipation.",
+                "The future treatment plan for the patient includes post-procedure follow-up, prescriptions for pain management and constipation, and instructions to contact her primary care physician if she is unable to have a bowel movement within a certain timeframe."
+              ],
+              "id": 11
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the future treatment plan for the patient?",
+              "answers": [
+                "Post-procedure follow up to be arranged by ___,  interventional radiology ___.  ",
+                "Following thrombin injection patient  experienced right groin pain. She also experienced pain in her  pelvic region thought to be secondary to fibroids responding to  embolization procedure. Pain initially treated with intravenous  morphine and transitioned to oral oxycodone at time of  discharge. She was given a prescription for oxycodone 5mg ___  tabs TID as needed for pain. She was instructed not to drive or  operate heavy machinery while taking this medication. She was  also prescribed ibuprofen 800 mg PO TID to reduce inflammation  and instructed to take this medication with food and water. ",
+                "Patient experienced constipation during this  admission. Last bowel movement day prior to admission. Patient  reports that she has irritable bowel syndrome with constipation  at baseline. Likely constipation worsened due to patient taking  narcotics for pain control. Patient started on bowel regimen  including colace, senna and lactulose. Patient was discharged  with a prescription for oral lactulose. She will contact her  primary care physician if she is unable to have a bowel movement  within ___ hours of discharge.  "
+              ],
+              "id": 12
+            },
+            {
+              "question": "(Content extraction) What medications are the patient currently on?",
+              "answers": [
+                "1. Prednisone 5mg QDAY",
+                "2. Folate 1 mg QDAY",
+                "3. Methotrexate 10mg Q wk",
+                "4. Culturale (probiotic) daily",
+                "5. Oxycodone 5mg TID as needed for pain",
+                "6. Ibuprofen 800mg PO TID for inflammation",
+                "7. Lactulose for constipation"
+              ],
+              "id": 13
+            },
+            {
+              "question": "(Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history.",
+              "answers": [
+                "Diagnoses:",
+                "1. Rheumatoid Arthritis (past medical history)",
+                "2. Irritable Bowel Syndrome (past medical history)",
+                "3. Bicuspid aortic valve (no TTE in chart) (past medical history)",
+                "4. Right groin pseudoaneurysm (recent onsite visit)",
+                "5. Fibroids (recent onsite visit)"
+              ],
+              "id": 14
+            },
+            {
+              "question": "(Named Entity Recognition) Identify all the medical conditions mentioned in the patient's history.",
+              "answers": [
+                "1. Rheumatoid Arthritis",
+                "2. Irritable Bowel Syndrome",
+                "3. Bicuspid aortic valve",
+                "4. Right groin pseudoaneurysm",
+                "5. Fibroids"
+              ],
+              "id": 15
+            },
+            {
+              "question": "(Text Summarization) Provide a brief summary of the patient's hospital course.",
+              "answers": [
+                "The patient was admitted after experiencing right groin pain and swelling, which was determined to be a pseudoaneurysm. She had undergone uterine fibroid embolization prior to admission. The pseudoaneurysm was treated with thrombin injection, and the patient was given medication to manage her pain and constipation. She was discharged with instructions to follow up with interventional radiology, and to contact her primary care physician if she experienced any issues with constipation.",
+                "The patient presented with a pseudoaneurysm resulting from uterine fibroid embolization, which was treated with thrombin injection. She experienced pain and constipation during her hospital stay, and was discharged with medication and follow-up instructions."
+              ],
+              "id": 16
+            },
+            {
+              "question": "(Clinical Concept Normalization) Normalize the medical terminology used in the patient's history to standard clinical codes.",
+              "answers": [
+                "1. Rheumatoid Arthritis - M05.9",
+                "2. Irritable Bowel Syndrome - K58.0",
+                "3. Bicuspid aortic valve - Q23.1",
+                "4. Right groin pseudoaneurysm - I77.81",
+                "5. Fibroids - D25.9"
+              ],
+              "id": 17
+            },
+            {
+              "question": "(Relation Extraction) Identify the relationship between the patient's uterine fibroid embolization and the development of a pseudoaneurysm.",
+              "answers": [
+                "The patient's uterine fibroid embolization was the cause of her development of a right groin pseudoaneurysm."
+              ],
+              "id": 18
+            },
+            {
+              "question": "(Keyword Extraction) Extract all the medications prescribed to the patient during her hospital stay.",
+              "answers": [
+                "1. Prednisone",
+                "2. Folate",
+                "3. Methotrexate",
+                "4. Culturale (probiotic)",
+                "5. Oxycodone",
+                "6. Ibuprofen",
+                "7. Lactulose"
+              ],
+              "id": 19
+            },
+            {
+              "question": "(Temporal Information Extraction) Identify the dates of the patient's hospital admission and discharge.",
+              "answers": [
+                "There is no information about the dates of the patient's hospital admission and discharge in the given note."
+              ],
+              "id": 20
+            },
+            {
+              "answers": [
+                "This is a 58 year old female who presented with a right groin pseudoaneurysm following a uterine fibroid embolization. She was treated with thrombin injection and discharged home with pain medications and follow-up appointments with her interventional radiologist and primary care physician. She was also given instructions regarding constipation management."
+              ],
+              "id": "21",
+              "question": "(Natural Language Generation) Generate a discharge summary for the patient."
+            },
+            {
+              "answers": [
+                "Transthoracic echocardiogram"
+              ],
+              "id": "22",
+              "question": "(Abbreviation Expansion) Expand the abbreviation \"TTE\" used in the patient's history."
+            },
+            {
+              "answers": [
+                "right groin pain, right groin swelling, pain radiating across lower abdomen"
+              ],
+              "id": "23",
+              "question": "(Feature Extraction) Extract all the symptoms reported by the patient during her hospital stay."
+            },
+            {
+              "answers": [
+                "Chronic: Rheumatoid Arthritis, Irritable Bowel Syndrome, Bicuspid aortic valve",
+                "Acute: Right groin pseudoaneurysm"
+              ],
+              "id": "24",
+              "question": "(Text Classification) Classify the patient's medical conditions as chronic or acute."
+            },
+            {
+              "answers": [
+                "The patient's constipation was likely worsened due to the narcotics she was taking for pain control."
+              ],
+              "id": "25",
+              "question": "(Relation Extraction) Identify the relationship between the patient's constipation and the medications she was taking."
+            },
+            {
+              "answers": [
+                "The patient was given a prescription for oxycodone 5mg tablets to take as needed for pain, but was instructed not to drive or operate heavy machinery while taking this medication. She was also prescribed ibuprofen 800mg to take three times a day with food and water. Additionally, she was started on a bowel regimen including colace, senna, and lactulose, and was discharged with a prescription for oral lactulose. She was instructed to contact her primary care physician if she was unable to have a bowel movement within a certain number of hours after discharge."
+              ],
+              "id": "26",
+              "question": "(Keyword Extraction) Extract all the instructions given to the patient regarding her medications."
+            },
+            {
+              "answers": [
+                "ultrasound"
+              ],
+              "id": "27",
+              "question": "(Content Extraction) Extract all the diagnostic procedures performed on the patient during her hospital stay."
+            },
+            {
+              "answers": [
+                "interventional radiology physician's assistant"
+              ],
+              "id": "28",
+              "question": "(Named Entity Recognition) Identify all the healthcare professionals mentioned in the patient's history."
+            },
+            {
+              "answers": [
+                "Yes"
+              ],
+              "id": "29",
+              "question": "(Yes/No Question) Was the patient's pseudoaneurysm successfully treated with thrombin injection?"
+            },
+            {
+              "answers": [
+                "The patient experienced pain when trying to straighten her right leg."
+              ],
+              "id": "30",
+              "question": "(Paraphrasing) Can you rephrase the patient's complaint of \"difficulty straightening her right leg without pain\"?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "10002131-DS-16",
+      "paragraphs": [
+        {
+          "context": "Sex: FChief Complaint: Right hip painHistory of Present Illness: ___ is a ___ y/o F with PMHx CHF, Afib not on  anticoagulation, severe advanced Alzheimer's dementia,  osteoporosis, HTN, who presents from assisted living facility  with R hip pain.  The patient has severe dementia, with short term memory loss so  is unable to provide history. Much of the history is obtained  from multiple family members in the room. She has multiple  family members who live close by and are involved intimately in  her care. They were called from the assisted living facility  this morning when the patient was in ___ right hip pain. This  occurred suddenly. No trauma. No reported falls. She was not  complaining of other symptoms. She was brought to the ED.   Discussing with the patient, she moved into the Assisted living  facility in ___ in ___ given worsening of her  dementia. She was in her USOH, bowling weekly and very social,  until ___ when she developed acute SOB with ambulation  prompting admission to ___ where she was noted  to be in Afib. She had a week long hospital stay complicated by  an ICU course for an allergic reaction to a medication (family  thinks Zofran). Since returning from this hospitalization, she  has not been back to baseline and has deteriorated. She has  spent much of her time wheelchair bound given deconditioning.  She has worsening memory function, now with severe short term  memory loss. Decreased appetite and PO intake. She was recently  seen in ___ clinic by Dr. ___ new diagnosis of CHF. She  underwent an TTE at ___ yesterday ___ to evaluate her  systolic function. In the ED, initial vitals were 98.7, 96, 122/48, 20, 96% RA. Exam was significant for R hip TTP greater trochanter, neg straight leg raise. ___  pulses 2+ LLE 2+ edema, unknown duration Labs were significant for  K 2.8  Cr 0.8 CBC 13.9/12.5/39.2/168 UA WBC 22, moderate leuks, negative nitrites Studies  Lower extremity ultrasound 1. Deep vein thrombosis of the left  common femoral vein extending into at least the popliteal vein.  Left calf veins were not clearly identified and possibly also  occluded. 2. No DVT in the right lower extremity.  CXR Bilateral pleural effusions, large on the right and small on the  left. No definite focal consolidation identified, although  evaluation is limited secondary to these effusions.   She was given 80 mEq of K and 60mg Enoxaparin Sodium. Vitals on transfer were 97.9, 79, 125/53, 18, 100% Nasal  Cannula.    On the floor, she is resting comfortably in bed. History is  obtained as above with family members. She sleeps with 2 pillows  at home and has DOE. She has not had a bowel movement in 2 days.Review of systems: (+) Per HPI   (-) Denies fever, chills, night sweats. denies headache, sinus  tenderness, rhinorrhea or congestion. Denies cough. Denies  nausea, vomiting, diarrhea, constipation or abdominal pain. No  dysuria. Denies arthralgias or myalgias.Discharge Disposition: Extended CareDischarge Instructions: Dear ___,   It was a pleasure taking care of you during your  hospitalization. Briefly, you were hospitalized with right hip  pain. We did Xrays of your hip which did not show any fractures.  We also found a blood clot in your left leg and noticed that  your heart wasn't pumping very efficiently. We talked with you  and your family, who shared with us many of your wishes about  being hospitalized and the type of care you would like to  receive. We decided to focus on your comfort. Because of this,  you are being discharged to ___ for hospice care.     We wish you and your family the ___,   Your ___ Treatment Team",
+          "qas": [
+            {
+              "answers": [
+                "right hip pain"
+              ],
+              "id": "1",
+              "question": "(Text Summarization) What is the patient's primary diagnosis?"
+            },
+            {
+              "answers": [
+                "___ is a ___ y/o F with PMHx CHF, Afib not on  anticoagulation, severe advanced Alzheimer's dementia,  osteoporosis, HTN, who presents from assisted living facility  with R hip pain. She has worsening memory function, now with severe short term  memory loss. Decreased appetite and PO intake. She was recently  seen in ___ clinic by Dr. ___ new diagnosis of CHF. She underwent an TTE at ___ yesterday ___ to evaluate her  systolic function. Labs were significant for  K 2.8  Cr 0.8 CBC 13.9/12.5/39.2/168 UA WBC 22, moderate leuks, negative nitrites. CXR Bilateral pleural effusions, large on the right and small on the  left. No definite focal consolidation identified, although  evaluation is limited secondary to these effusions. Lower extremity ultrasound 1. Deep vein thrombosis of the left  common femoral vein extending into at least the popliteal vein.  Left calf veins were not clearly identified and possibly also  occluded.",
+                "right hip pain",
+                "PMHx CHF, Afib not on  anticoagulation, severe advanced Alzheimer's dementia,  osteoporosis, HTN, worsening memory function, now with severe short term  memory loss, decreased appetite and PO intake, new diagnosis of CHF, K 2.8  Cr 0.8 CBC 13.9/12.5/39.2/168 UA WBC 22, moderate leuks, negative nitrites, Bilateral pleural effusions, large on the right and small on the  left, Lower extremity ultrasound 1. Deep vein thrombosis of the left  common femoral vein extending into at least the popliteal vein.  Left calf veins were not clearly identified and possibly also  occluded."
+              ],
+              "id": "2",
+              "question": "(Content extraction) Which sentences in the note describe the diagnosis?"
+            },
+            {
+              "answers": [
+                "CHF, Afib, Alzheimer's dementia, osteoporosis, HTN"
+              ],
+              "id": "3",
+              "question": "(Text Summarization) What are the comorbidities of the patient?"
+            },
+            {
+              "answers": [
+                "___ is a ___ y/o F with PMHx CHF, Afib not on  anticoagulation, severe advanced Alzheimer's dementia,  osteoporosis, HTN, She has worsening memory function, now with severe short term  memory loss. Decreased appetite and PO intake. She was recently  seen in ___ clinic by Dr. ___ new diagnosis of CHF.",
+                "CHF, Afib not on  anticoagulation, severe advanced Alzheimer's dementia,  osteoporosis, HTN"
+              ],
+              "id": "4",
+              "question": "(Content extraction) Which sentences in the note describe the comorbidities?"
+            },
+            {
+              "answers": [
+                "80 mEq of K",
+                "60mg Enoxaparin Sodium"
+              ],
+              "id": "5",
+              "question": "(Named Entity Recognition) List all the medications mentioned in the discharge summary?"
+            },
+            {
+              "answers": [
+                "She was given 80 mEq of K and 60mg Enoxaparin Sodium."
+              ],
+              "id": "6",
+              "question": "(Content extraction) Which sentences in the note describe the medications?"
+            },
+            {
+              "answers": [
+                "K",
+                "Cr",
+                "CBC",
+                "UA"
+              ],
+              "id": "7",
+              "question": "(Named Entity Recognition) List all the labs mentioned in the discharge summary?"
+            },
+            {
+              "answers": [
+                "Labs were significant for  K 2.8  Cr 0.8 CBC 13.9/12.5/39.2/168 UA WBC 22, moderate leuks, negative nitrites."
+              ],
+              "id": "8",
+              "question": "(Content extraction) Which sentences in the note describe the labs?"
+            },
+            {
+              "answers": [
+                "The patient was hospitalized with right hip pain. A blood clot was found in the left leg and noticed that  the heart wasn't pumping very efficiently. The patient and family decided to focus on comfort. Because of this, the patient was discharged to ___ for hospice care."
+              ],
+              "id": "9",
+              "question": "(Text Summarization) Provide a brief summary of the history treatment plan for the patient?"
+            },
+            {
+              "answers": [
+                "We decided to focus on your comfort. Because of this,  you are being discharged to ___ for hospice care."
+              ],
+              "id": "10",
+              "question": "(Content extraction) Which sentences in the note describe the history treatment plan for the patient?"
+            },
+            {
+              "question": "(Text Summarization) Provide a brief summary of the future treatment plan for the patient?",
+              "id": 11,
+              "answers": [
+                "The patient is being discharged to hospice care to focus on her comfort."
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the future treatment plan for the patient?",
+              "id": 12,
+              "answers": [
+                "Discharge Instructions: Dear ___,   It was a pleasure taking care of you during your  hospitalization. Briefly, you were hospitalized with right hip  pain. We did Xrays of your hip which did not show any fractures.  We also found a blood clot in your left leg and noticed that  your heart wasn't pumping very efficiently. We talked with you  and your family, who shared with us many of your wishes about  being hospitalized and the type of care you would like to  receive. We decided to focus on your comfort. Because of this,  you are being discharged to ___ for hospice care.     We wish you and your family the ___,   Your ___ Treatment Team"
+              ]
+            },
+            {
+              "question": "(Content extraction) What medications are the patient currently on?",
+              "id": 13,
+              "answers": [
+                "The note does not provide information on the medications the patient is currently on."
+              ]
+            },
+            {
+              "question": "(Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history.",
+              "id": 14,
+              "answers": [
+                "Diagnoses: Right hip pain, deep vein thrombosis of the left  common femoral vein, CHF, Afib, bilateral pleural effusions.",
+                "It is not specified whether the diagnoses are from recent onsite visits or past medical history."
+              ]
+            },
+            {
+              "question": "(Question Answering) What was the patient's chief complaint?",
+              "id": 15,
+              "answers": [
+                "The patient's chief complaint was right hip pain."
+              ]
+            },
+            {
+              "question": "(Text Summarization) Can you summarize the patient's medical history in a few sentences?",
+              "id": 16,
+              "answers": [
+                "The patient has a history of CHF, Afib not on anticoagulation, severe advanced Alzheimer's dementia, osteoporosis, and HTN. She was recently diagnosed with CHF and underwent a TTE to evaluate her systolic function. She also had an ICU course for an allergic reaction to a medication."
+              ]
+            },
+            {
+              "question": "(Named Entity Recognition) Can you identify all the medical conditions mentioned in the discharge summary?",
+              "id": 17,
+              "answers": [
+                "The medical conditions mentioned in the discharge summary are right hip pain, deep vein thrombosis of the left common femoral vein, CHF, Afib, and bilateral pleural effusions."
+              ]
+            },
+            {
+              "question": "(Temporal Information Extraction) When did the patient move into the assisted living facility?",
+              "id": 18,
+              "answers": [
+                "The note does not provide the exact date when the patient moved into the assisted living facility. However, it mentions that she moved in given worsening of her dementia, after developing acute SOB with ambulation in an unspecified date, and was seen in a clinic by Dr. ___ after her hospitalization for CHF."
+              ]
+            },
+            {
+              "question": "(Relation Extraction) Is there any relation between the patient's CHF and Afib?",
+              "id": 19,
+              "answers": [
+                "The note does not provide information on the relation between the patient's CHF and Afib."
+              ]
+            },
+            {
+              "question": "(Keyword Extraction) What are the keywords that describe the patient's current condition?",
+              "id": 20,
+              "answers": [
+                "The keywords that describe the patient's current condition are right hip pain, deep vein thrombosis, CHF, Afib, pleural effusions, Alzheimer's dementia, osteoporosis, and deconditioning."
+              ]
+            },
+            {
+              "answers": [
+                "transthoracic echocardiography"
+              ],
+              "id": "21",
+              "question": "(Abbreviation Expansion) What does TTE stand for in the discharge summary?"
+            },
+            {
+              "answers": [
+                [
+                  "1. Deep vein thrombosis of the left common femoral vein extending into at least the popliteal vein.",
+                  "2. No DVT in the right lower extremity."
+                ]
+              ],
+              "id": "22",
+              "question": "(Feature Extraction) What are the significant findings from the patient's lower extremity ultrasound?"
+            },
+            {
+              "answers": [
+                [
+                  "Initial vitals were 98.7, 96, 122/48, 20, 96% RA.",
+                  "Vitals on transfer were 97.9, 79, 125/53, 18, 100% Nasal Cannula."
+                ]
+              ],
+              "id": "23",
+              "question": "(Content Extraction) Can you extract the patient's vital signs from the discharge summary?"
+            },
+            {
+              "answers": [
+                "The patient was hospitalized with right hip pain and was found to have a blood clot in her left leg, as well as decreased heart function. The decision was made to focus on the patient's comfort, and she is being discharged to hospice care."
+              ],
+              "id": "24",
+              "question": "(Natural Language Generation) Can you generate a summary of the patient's hospitalization and discharge instructions?"
+            },
+            {
+              "answers": [
+                "hospice care"
+              ],
+              "id": "25",
+              "question": "(Text Classification) What type of medical care is the patient being discharged to?"
+            },
+            {
+              "answers": [
+                "She has not had a bowel movement in 2 days."
+              ],
+              "id": "26",
+              "question": "(Temporal Information Extraction) When was the patient's last bowel movement?"
+            },
+            {
+              "answers": [
+                "Yes, the patient has bilateral pleural effusions, with a large effusion on the right and a small effusion on the left. It is unclear if there is a relation between the pleural effusions and the patient's shortness of breath."
+              ],
+              "id": "27",
+              "question": "(Relation Extraction) Is there any relation between the patient's shortness of breath and the pleural effusions?"
+            },
+            {
+              "answers": [
+                [
+                  "Enoxaparin Sodium",
+                  "Zofran"
+                ]
+              ],
+              "id": "28",
+              "question": "(Named Entity Recognition) Can you identify any medications mentioned in the discharge summary?"
+            },
+            {
+              "answers": [
+                "The decision was made to prioritize the patient's comfort."
+              ],
+              "id": "29",
+              "question": "(Paraphrasing) Can you rephrase the sentence 'We decided to focus on your comfort' in a different way?"
+            },
+            {
+              "answers": [
+                "No, the Xrays of the hip did not show any fractures."
+              ],
+              "id": "30",
+              "question": "(Yes/No Question) Was the patient diagnosed with a fracture in the hip X-ray?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "10015785-DS-17",
+      "paragraphs": [
+        {
+          "context": "Service: MEDICINEAllergies: CodeineAttending: ___.Chief Complaint: RLE painMajor Surgical or Invasive Procedure: IVF filter placement ___History of Present Illness: Ms. ___ is a ___ PMHx advanced Alzheimer's dementia, chronic  HCV, autoimmune hepatitis, and AFib who presents from her SNF  for RLE DVT.  Per report from her SNF, the patient had been complaining of RLE  pain.  LENIs showed DVT after which the patient was transferred  to ___.   In the ED, initial VS 98.1, 84, 142/65, 16, 98% RA.  Initial  labs were unremarkable.   CXR here showed no evidence of PNA.   UA was grossly positive and the patient was given IV  ceftriaxone, Lovenox 70 mg x 1 prior to transfer.  Of note, the patient was most recently discharged from ___ in  ___ for seizure activity and was found to have a 3 cm  atypical meningioma. Per ___ discussion with the patient's  niece, surgical intervention was deferred.  Her course at the  time was also notable for new paroxysmal AFib; given her  CHADSVASC score of 4, anticoagulation was warranted.  However,  given her age, risk of fall, and her new intracranial lesion  (high risk for venous bleed), anticoagulation was deferred.   From further collateral information obtained from her SNF (Vero  Health and Rehab of Mattapan) this evening, it is unclear why  the patient was not started on anticoagulation for DVT treatment  and why the patient was transferred to ___ for further evaluation.  The ED attempted to reach out to the family re utility of IVC filter placement in this setting, but was unable  to contact the family.  Upon arrival to the floor, the patient denies any chest pain or  SOB.  She has had a cough x 2 weeks; she has had no fevers.  She  is AOx2 to self and place (at baseline).  She denies any  dysuria, urinary incontinence or increased urinary frequency.Past Medical History: - Alzheimer's; ADL impaired in preparing food, remembering to  bathe, recalling faces.  Lives at home but with extensive ___  and family support.   - HCV, chronic, low viral load (last in OMR ___, 15 million  copies)   - Autoimmune hepatitis   - HTN - atypical meningiomaPertinent Results: ADMISSION LABS ============== ___ 11:00PM   GLUCOSE-94 UREA N-10 CREAT-0.8 SODIUM-141  POTASSIUM-4.7 CHLORIDE-102 TOTAL CO2-26 ANION GAP-18 ___ 11:00PM   LACTATE-1.5 ___ 11:00PM   WBC-7.6 RBC-4.63 HGB-12.8 HCT-41.0 MCV-89  MCH-27.6 MCHC-31.2* RDW-14.5 RDWSD-46.3 ___ 11:00PM   NEUTS-56.1 ___ MONOS-10.4 EOS-1.6  BASOS-0.4 IM ___ AbsNeut-4.28 AbsLymp-2.37 AbsMono-0.79  AbsEos-0.12 AbsBaso-0.03 ___ 11:00PM   PLT COUNT-178 ___ 11:00PM   ___ PTT-32.0 ___ ___ 10:00PM URINE  COLOR-Yellow APPEAR-Clear SP ___ ___ 10:00PM URINE  BLOOD-NEG NITRITE-NEG PROTEIN-TR  GLUCOSE-NEG KETONE-NEG BILIRUBIN-NEG UROBILNGN-2* PH-7.0 LEUK-LG ___ 10:00PM URINE  RBC-2 WBC-21* BACTERIA-FEW YEAST-NONE  EPI-<1  IMAGING/STUDIES =============== ___ CXR No evidence of pneumonia. OSH ___ RLE DVT FINDINGS 1. Patent normal sized, non-duplicated IVC with single bilateral  renal veins and no evidence of a clot. 2. Successful deployment of an infra-renal permanent infrarenal  IVC filter. IMPRESSION Successful deployment of permanent infrarenal IVC filter.Discharge Medications: 1. Aspirin 81 mg PO DAILY  2. Donepezil 10 mg PO QHS  3. LevETIRAcetam 500 mg PO BID  4. Memantine 21 mg PO DAILY  5. Multivitamins W/minerals 1 TAB PO DAILY  6. NIFEdipine CR 30 mg PO DAILY  7. PredniSONE 5 mg PO DAILY  8. Vitamin E 400 UNIT PO DAILYFacility: ___Discharge Condition:  Mental Status Confused - always. Level of Consciousness Alert and interactive. Activity Status Out of Bed with assistance to chair or  wheelchair.",
+          "qas": [
+            {
+              "id": 1,
+              "question": "(Text Summarization) What is the patient's primary diagnosis?",
+              "answers": [
+                "RLE DVT"
+              ]
+            },
+            {
+              "id": 2,
+              "question": "(Content extraction) Which sentences in the note describe the diagnosis?",
+              "answers": [
+                "Ms. ___ is a ___ PMHx advanced Alzheimer's dementia, chronic  HCV, autoimmune hepatitis, and AFib who presents from her SNF  for RLE DVT.",
+                "Per report from her SNF, the patient had been complaining of RLE  pain.",
+                "LENIs showed DVT after which the patient was transferred  to ___."
+              ]
+            },
+            {
+              "id": 3,
+              "question": "(Text Summarization) What are the comorbidities of the patient?",
+              "answers": [
+                "advanced Alzheimer's dementia, chronic HCV, autoimmune hepatitis, and AFib",
+                "HTN",
+                "atypical meningioma"
+              ]
+            },
+            {
+              "id": 4,
+              "question": "(Content extraction) Which sentences in the note describe the comorbidities?",
+              "answers": [
+                "Ms. ___ is a ___ PMHx advanced Alzheimer's dementia, chronic  HCV, autoimmune hepatitis, and AFib who presents from her SNF  for RLE DVT.",
+                "- Alzheimer's; ADL impaired in preparing food, remembering to  bathe, recalling faces.",
+                "HCV, chronic, low viral load (last in OMR ___, 15 million  copies)",
+                "Autoimmune hepatitis",
+                "HTN - atypical meningioma"
+              ]
+            },
+            {
+              "id": 5,
+              "question": "(Named Entity Recognition) List all the medications mentioned in the discharge summary.",
+              "answers": [
+                "Aspirin 81 mg PO DAILY",
+                "Donepezil 10 mg PO QHS",
+                "LevETIRAcetam 500 mg PO BID",
+                "Memantine 21 mg PO DAILY",
+                "Multivitamins W/minerals 1 TAB PO DAILY",
+                "NIFEdipine CR 30 mg PO DAILY",
+                "PredniSONE 5 mg PO DAILY",
+                "Vitamin E 400 UNIT PO DAILY",
+                "IV ceftriaxone",
+                "Lovenox 70 mg x 1"
+              ]
+            },
+            {
+              "id": 6,
+              "question": "(Content extraction) Which sentences in the note describe the medications?",
+              "answers": [
+                "She was given IV  ceftriaxone, Lovenox 70 mg x 1 prior to transfer.",
+                "Discharge Medications: 1. Aspirin 81 mg PO DAILY  2. Donepezil 10 mg PO QHS  3. LevETIRAcetam 500 mg PO BID  4. Memantine 21 mg PO DAILY  5. Multivitamins W/minerals 1 TAB PO DAILY  6. NIFEdipine CR 30 mg PO DAILY  7. PredniSONE 5 mg PO DAILY  8. Vitamin E 400 UNIT PO DAILY"
+              ]
+            },
+            {
+              "id": 7,
+              "question": "(Named Entity Recognition) List all the labs mentioned in the discharge summary.",
+              "answers": [
+                "GLUCOSE-94",
+                "UREA N-10",
+                "CREAT-0.8",
+                "SODIUM-141",
+                "POTASSIUM-4.7",
+                "CHLORIDE-102",
+                "TOTAL CO2-26",
+                "ANION GAP-18",
+                "LACTATE-1.5",
+                "WBC-7.6",
+                "RBC-4.63",
+                "HGB-12.8",
+                "HCT-41.0",
+                "MCV-89",
+                "MCH-27.6",
+                "MCHC-31.2",
+                "RDW-14.5",
+                "RDWSD-46.3",
+                "NEUTS-56.1",
+                "MONOS-10.4",
+                "EOS-1.6",
+                "BASOS-0.4",
+                "AbsNeut-4.28",
+                "AbsLymp-2.37",
+                "AbsMono-0.79",
+                "AbsEos-0.12",
+                "AbsBaso-0.03",
+                "PLT COUNT-178",
+                "PTT-32.0",
+                "URINE  COLOR-Yellow",
+                "APPEAR-Clear",
+                "SP ___",
+                "URINE  BLOOD-NEG",
+                "NITRITE-NEG",
+                "PROTEIN-TR",
+                "GLUCOSE-NEG",
+                "KETONE-NEG",
+                "BILIRUBIN-NEG",
+                "UROBILNGN-2",
+                "PH-7.0",
+                "LEUK-LG",
+                "URINE  RBC-2",
+                "WBC-21",
+                "BACTERIA-FEW",
+                "YEAST-NONE",
+                "EPI-<1",
+                "CXR",
+                "OSH ___",
+                "RLE DVT"
+              ]
+            },
+            {
+              "id": 8,
+              "question": "(Content extraction) Which sentences in the note describe the labs?",
+              "answers": [
+                "ADMISSION LABS ============== ___ 11:00PM   GLUCOSE-94 UREA N-10 CREAT-0.8 SODIUM-141  POTASSIUM-4.7 CHLORIDE-102 TOTAL CO2-26 ANION GAP-18 ___ 11:00PM   LACTATE-1.5 ___ 11:00PM   WBC-7.6 RBC-4.63 HGB-12.8 HCT-41.0 MCV-89  MCH-27.6 MCHC-31.2* RDW-14.5 RDWSD-46.3 ___ 11:00PM   NEUTS-56.1 ___ MONOS-10.4 EOS-1.6  BASOS-0.4 IM ___ AbsNeut-4.28 AbsLymp-2.37 AbsMono-0.79  AbsEos-0.12 AbsBaso-0.03 ___ 11:00PM   PLT COUNT-178 ___ 11:00PM   ___ PTT-32.0 ___ ___ 10:00PM URINE  COLOR-Yellow APPEAR-Clear SP ___ ___ 10:00PM URINE  BLOOD-NEG NITRITE-NEG PROTEIN-TR  GLUCOSE-NEG KETONE-NEG BILIRUBIN-NEG UROBILNGN-2* PH-7.0 LEUK-LG ___ 10:00PM URINE  RBC-2 WBC-21* BACTERIA-FEW YEAST-NONE  EPI-<1  IMAGING/STUDIES =============== ___ CXR No evidence of pneumonia. OSH ___ RLE DVT FINDINGS 1. Patent normal sized, non-duplicated IVC with single bilateral  renal veins and no evidence of a clot. 2. Successful deployment of an infra-renal permanent infrarenal  IVC filter. IMPRESSION Successful deployment of permanent infrarenal IVC filter."
+              ]
+            },
+            {
+              "id": 9,
+              "question": "(Text Summarization) Provide a brief summary of the history treatment plan for the patient?",
+              "answers": [
+                "Ms. ___ was admitted for RLE DVT. She had a history of advanced Alzheimer's dementia, chronic HCV, autoimmune hepatitis, AFib, HTN, and an atypical meningioma. Her initial labs were unremarkable and she was given IV ceftriaxone and Lovenox 70 mg x 1 prior to transfer. Upon arrival, she was started on aspirin, Donepezil, LevETIRAcetam, Memantine, Multivitamins W/minerals, NIFEdipine CR, PredniSONE, and Vitamin E. She had a successful deployment of permanent infrarenal IVC filter. She was discharged in a confused mental status but alert and interactive."
+              ]
+            },
+            {
+              "id": 10,
+              "question": "(Content extraction) Which sentences in the note describe the history treatment plan for the patient?",
+              "answers": [
+                "Ms. ___ was admitted for RLE DVT. She had a history of advanced Alzheimer's dementia, chronic HCV, autoimmune hepatitis, AFib, HTN, and an atypical meningioma.",
+                "Her initial labs were unremarkable and she was given IV ceftriaxone and Lovenox 70 mg x 1 prior to transfer.",
+                "Upon arrival, she was started on aspirin, Donepezil, LevETIRAcetam, Memantine, Multivitamins W/minerals, NIFEdipine CR, PredniSONE, and Vitamin E.",
+                "She had a successful deployment of permanent infrarenal IVC filter.",
+                "She was discharged in a confused mental status but alert and interactive."
+              ]
+            },
+            {
+              "answers": [
+                "Aspirin 81 mg PO DAILY, Donepezil 10 mg PO QHS, LevETIRAcetam 500 mg PO BID, Memantine 21 mg PO DAILY, Multivitamins W/minerals 1 TAB PO DAILY, NIFEdipine CR 30 mg PO DAILY, PredniSONE 5 mg PO DAILY, Vitamin E 400 UNIT PO DAILY"
+              ],
+              "id": "13",
+              "question": "(Content extraction) What medications are the patient currently on?"
+            },
+            {
+              "answers": [
+                "Ms. ___ had an IVC filter placed and was started on anticoagulation therapy, and will be discharged on multiple medications including aspirin, LevETIRAcetam, Memantine, NIFEdipine, PredniSONE, and Vitamin E."
+              ],
+              "id": "11",
+              "question": "(Text Summarization) Provide a brief summary of the future treatment plan for the patient?"
+            },
+            {
+              "answers": [
+                "Successful deployment of permanent infrarenal IVC filter."
+              ],
+              "id": "17",
+              "question": "(Text Summarization) Can you summarize the imaging/studies section of the discharge summary?"
+            },
+            {
+              "answers": [
+                "Alzheimer's dementia, chronic HCV, autoimmune hepatitis, AFib, RLE DVT, atypical meningioma"
+              ],
+              "id": "14",
+              "question": "(Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history."
+            },
+            {
+              "answers": [
+                "RLE pain"
+              ],
+              "id": "15",
+              "question": "(Question Answering) What is the patient's chief complaint?"
+            },
+            {
+              "answers": [
+                "Ms. ___ is an elderly female with a past medical history of Alzheimer's dementia, chronic HCV, autoimmune hepatitis, AFib, and atypical meningioma, who presented with RLE pain and was found to have a DVT. She had an IVC filter placed and was started on anticoagulation therapy, and will be discharged on multiple medications including aspirin, LevETIRAcetam, Memantine, NIFEdipine, PredniSONE, and Vitamin E."
+              ],
+              "id": "16",
+              "question": "(Natural Language Generation) Can you generate a brief summary of the patient's medical history?"
+            },
+            {
+              "answers": [
+                "Mental Status Confused - always."
+              ],
+              "id": "18",
+              "question": "(Text Classification) Is the patient's mental status considered normal or abnormal?"
+            },
+            {
+              "answers": [
+                "She was most recently discharged from the hospital for seizure activity, but the date of discharge is not specified."
+              ],
+              "id": "19",
+              "question": "(Temporal Information Extraction) When was the patient's most recent discharge from the hospital?"
+            },
+            {
+              "answers": [
+                "It is unclear from the note whether there is a relation between the patient's RLE pain and her Alzheimer's dementia."
+              ],
+              "id": "20",
+              "question": "(Relation Extraction) Is there any relation between the patient's RLE pain and her Alzheimer's dementia?"
+            },
+            {
+              "answers": [
+                "The sentences that describe the future treatment plan for the patient are: Ms. ___ had an IVC filter placed and was started on anticoagulation therapy, and will be discharged on multiple medications including aspirin, LevETIRAcetam, Memantine, NIFEdipine, PredniSONE, and Vitamin E."
+              ],
+              "id": "12",
+              "question": "(Content extraction) Which sentences in the note describe the future treatment plan for the patient?"
+            },
+            {
+              "question": "(Named Entity Recognition) Can you identify all of the patient's medical conditions mentioned in the discharge summary?",
+              "id": 21,
+              "answers": [
+                "advanced Alzheimer's dementia",
+                "chronic HCV",
+                "autoimmune hepatitis",
+                "atypical meningioma"
+              ]
+            },
+            {
+              "question": "(Paraphrasing) Can you rephrase the sentence 'Given her age, risk of fall, and her new intracranial lesion (high risk for venous bleed), anticoagulation was deferred'?",
+              "id": 22,
+              "answers": [
+                "Anticoagulation was not initiated due to the patient's age, risk of fall, and new intracranial lesion which increases the risk of venous bleed."
+              ]
+            },
+            {
+              "question": "(Clinical Concept Normalization) Can you normalize the medical abbreviation 'AFib' to its full form?",
+              "id": 23,
+              "answers": [
+                "Atrial Fibrillation"
+              ]
+            },
+            {
+              "question": "(Keyword Extraction) What are the most frequently mentioned symptoms in the discharge summary?",
+              "id": 24,
+              "answers": [
+                "RLE pain",
+                "cough",
+                "chest pain",
+                "SOB",
+                "dysuria",
+                "urinary incontinence",
+                "increased urinary frequency"
+              ]
+            },
+            {
+              "question": "(Abbreviation Expansion) Can you expand the abbreviation 'IVC' to its full form?",
+              "id": 25,
+              "answers": [
+                "Inferior Vena Cava"
+              ]
+            },
+            {
+              "question": "(Feature Extraction) What are the key features of the patient's medical history that may be relevant to her RLE DVT?",
+              "id": 26,
+              "answers": [
+                "Chronic HCV",
+                "Autoimmune hepatitis",
+                "Atypical meningioma",
+                "Paroxysmal AFib",
+                "Advanced Alzheimer's dementia"
+              ]
+            },
+            {
+              "question": "(Content Extraction) Can you extract all of the medications prescribed to the patient upon discharge?",
+              "id": 27,
+              "answers": [
+                "Aspirin 81 mg PO DAILY",
+                "Donepezil 10 mg PO QHS",
+                "LevETIRAcetam 500 mg PO BID",
+                "Memantine 21 mg PO DAILY",
+                "Multivitamins W/minerals 1 TAB PO DAILY",
+                "NIFEdipine CR 30 mg PO DAILY",
+                "PredniSONE 5 mg PO DAILY",
+                "Vitamin E 400 UNIT PO DAILY"
+              ]
+            },
+            {
+              "question": "(Text Classification) Was the patient's UA grossly positive or negative?",
+              "id": 28,
+              "answers": [
+                "Grossly positive"
+              ]
+            },
+            {
+              "question": "(Question Answering) What is the patient's CHADSVASC score?",
+              "id": 29,
+              "answers": [
+                "4"
+              ]
+            },
+            {
+              "question": "(Relation Extraction) Is there any relation between the patient's chronic HCV and her RLE DVT?",
+              "id": 30,
+              "answers": [
+                "No information provided in the discharge summary about the relation between the patient's chronic HCV and her RLE DVT."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "10071869-DS-19",
+      "paragraphs": [
+        {
+          "context": "Sex: MService: MEDICINEAllergies: No Known Allergies / Adverse Drug ReactionsAttending: ___.Chief Complaint: hypoxemiaMajor Surgical or Invasive Procedure: noneHistory of Present Illness: ___ who has chart history of dementia, recent diagnosis of  Enterococcus bacteremia and Osteomyelitis on Ampicillin until  ___, Afib on Coumadin who is transferred from ___  due to respiratory distress.  Per review of Rehab notes and phone discussion with wife, he  presented to ___ on ___ (14d ago) after d/c from  ___. At ___ he was admitted there for about 2  weeks and per Rehab notes found to have Enterococcal bacteremia  and Osteomyelitis (unclear where). Per Rehab notes he is  supposed to be on Ampicillin 2g Q4 until ___. On day  of arrival at ___ patient acutely hypoxemic with inc O2  requirement, CXR at Rehab showed ?Opacity of R Lung. In the ED, initial vitals Afebrile, normotensive, HR 70-100,  80% on 6L, 98% on NRB - Exam notable for: intermittentl oriented elderly man with  tachypnea who had SaO2 mid ___ on 6L - Labs were notable for:   ABG: pH ___ INR 5.0, Hgb 7.3 / Hct 23, LFTs wnl, Alb 2.3, Lactate 1.9, BUN  23, Cr 0.6, Na 148, UA normal,  - Imaging:  CXR shows Significant opacification of the right  lung and left lower lobe - Patient was given:  Vanc/Cefepime/Flagyl  Given ___ need for high flow O2, he was sent to the ICU.   On arrival to the MICU patient is on a NRB at 100% and switched  to high flow. He was comfortable, not in distress or pain. He  was thirsty and had diarrhea.  Per wife at baseline patient was independent until admission to  ___ at the beginning of ___. Wife was not aware of  dementia diagnosis or any infection diagnoses. She was aware of  his Afib hx. I confirmed that he is DNR/DNI.Past Medical History: - CHF (unclear type or EF) - Afib on warfarin - Enterococcus Bacteremia and ?Osteomyelitis on Ampicillin - Rheumatoid Arthritis on Prednisone - Myelodysplastic syndrome - H/O GI Bleed d/t NSAIDs - H/O Prostate CA - H/O Left TKR ___Social History: ___Family History: -- \"heart problems\" per wife in ___ familyPhysical Exam:  ADMISSION PHYSICAL EXAM  Vitals afebrile, normotensive, 95% on high flow GENERAL Thin, Chronically ill appearing man, not in distress.  Hard of hearing HEENT Mild yellow discoloration of his sclera, dry mucosa,  edentulous without dentures NECK thin, no LAD LUNGS Coarse crackles anteriorly CV Irregularly irregular, < 100 ABD Thin, soft, non tender EXT Sacral pitting edema, no pitting edema of legs SKIN multiple bruises diffusely NEURO Knows his name/dob, knows wife's name, knows kids'  names, knows where he lives, does not know the year (thinks  ___, thinks it is ___, hard of hearing ACCESS PICC on left looks clean  DISCHARGE EXAM ExpiredMedications on Admission: The Preadmission Medication list is accurate and complete. 1. Acetaminophen 650 mg PO Q6H  2. Docusate Sodium 100 mg PO BID  3. Senna 8.6 mg PO QHS  4. Ondansetron 4 mg IV Q8H:PRN nausea  5. Digoxin 0.125 mg PO DAILY  6. Furosemide 20 mg PO DAILY  7. Pantoprazole 40 mg PO Q24H  8. Nystatin Oral Suspension 5 mL PO QID  9. Timolol Maleate 0.5% 1 DROP BOTH EYES BID  10. PredniSONE 10 mg PO DAILY  11. Aspirin 81 mg PO DAILY  12. Ampicillin 2 g IV Q4H  13. Metoprolol Tartrate 75 mg PO BID  14. Lactulose 15 mL PO Q8H:PRN constip  15. Diltiazem 60 mg PO Q6H  16. Famotidine 20 mg PO DAILY  17. Warfarin 3 mg PO DAILY16  18. Multivitamins 1 TAB PO DAILYDischarge Medications: none (deceased)Discharge Disposition: ExpiredDischarge Diagnosis: Acute hypoxemic respiratory failure secondary to parainfluenza 3  pneumonia Acute on chronic diastolic heart failure Deep vein thrombosis Atrial fibrillation Rheumatoid arthritis OsteomyelitisDischarge Condition: DeceasedDischarge Instructions: Deceased            ___ MD ___ Completed by ___",
+          "qas": [
+            {
+              "question": "(Text Summarization) What is the patient's primary diagnosis?",
+              "id": 1,
+              "answers": [
+                "The patient's primary diagnosis is acute hypoxemic respiratory failure secondary to parainfluenza 3 pneumonia."
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the diagnosis?",
+              "id": 2,
+              "answers": [
+                "On day  of arrival at ___ patient acutely hypoxemic with inc O2  requirement, CXR at Rehab showed ?Opacity of R Lung.",
+                "In the ED, initial vitals Afebrile, normotensive, HR 70-100,  80% on 6L, 98% on NRB - Exam notable for: intermittentl oriented elderly man with  tachypnea who had SaO2 mid ___ on 6L - Labs were notable for:   ABG: pH ___ INR 5.0, Hgb 7.3 / Hct 23, LFTs wnl, Alb 2.3, Lactate 1.9, BUN  23, Cr 0.6, Na 148, UA normal,  - Imaging:  CXR shows Significant opacification of the right  lung and left lower lobe - Patient was given:  Vanc/Cefepime/Flagyl  Given ___ need for high flow O2, he was sent to the ICU."
+              ]
+            },
+            {
+              "question": "(Text Summarization) What are the comorbidities of the patient?",
+              "id": 3,
+              "answers": [
+                "The comorbidities of the patient are CHF, Afib on warfarin, Enterococcus Bacteremia and ?Osteomyelitis on Ampicillin, Rheumatoid Arthritis on Prednisone, Myelodysplastic syndrome, H/O GI Bleed d/t NSAIDs, H/O Prostate CA, H/O Left TKR."
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the comorbidities?",
+              "id": 4,
+              "answers": [
+                "Per review of Rehab notes and phone discussion with wife, he  presented to ___ on ___ (14d ago) after d/c from  ___. At ___ he was admitted there for about 2  weeks and per Rehab notes found to have Enterococcal bacteremia  and Osteomyelitis (unclear where).",
+                "- CHF (unclear type or EF)",
+                "- Afib on warfarin",
+                "- Enterococcus Bacteremia and ?Osteomyelitis on Ampicillin",
+                "- Rheumatoid Arthritis on Prednisone",
+                "- Myelodysplastic syndrome",
+                "- H/O GI Bleed d/t NSAIDs",
+                "- H/O Prostate CA",
+                "- H/O Left TKR ___"
+              ]
+            },
+            {
+              "question": "(Named Entity Recognition) List all the medications mentioned in the discharge summary.",
+              "id": 5,
+              "answers": [
+                "Acetaminophen",
+                "Docusate Sodium",
+                "Senna",
+                "Ondansetron",
+                "Digoxin",
+                "Furosemide",
+                "Pantoprazole",
+                "Nystatin Oral Suspension",
+                "Timolol Maleate",
+                "PredniSONE",
+                "Aspirin",
+                "Ampicillin",
+                "Metoprolol Tartrate",
+                "Lactulose",
+                "Diltiazem",
+                "Famotidine",
+                "Warfarin",
+                "Multivitamins"
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the medications?",
+              "id": 6,
+              "answers": [
+                "Expire Medications on Admission: The Preadmission Medication list is accurate and complete. 1. Acetaminophen 650 mg PO Q6H  2. Docusate Sodium 100 mg PO BID  3. Senna 8.6 mg PO QHS  4. Ondansetron 4 mg IV Q8H:PRN nausea  5. Digoxin 0.125 mg PO DAILY  6. Furosemide 20 mg PO DAILY  7. Pantoprazole 40 mg PO Q24H  8. Nystatin Oral Suspension 5 mL PO QID  9. Timolol Maleate 0.5% 1 DROP BOTH EYES BID  10. PredniSONE 10 mg PO DAILY  11. Aspirin 81 mg PO DAILY  12. Ampicillin 2 g IV Q4H  13. Metoprolol Tartrate 75 mg PO BID  14. Lactulose 15 mL PO Q8H:PRN constip  15. Diltiazem 60 mg PO Q6H  16. Famotidine 20 mg PO DAILY  17. Warfarin 3 mg PO DAILY16  18. Multivitamins 1 TAB PO DAILY"
+              ]
+            },
+            {
+              "question": "(Named Entity Recognition) List all the labs mentioned in the discharge summary.",
+              "id": 7,
+              "answers": [
+                "ABG",
+                "INR",
+                "Hgb",
+                "Hct",
+                "LFTs",
+                "Alb",
+                "Lactate",
+                "BUN",
+                "Cr",
+                "Na",
+                "UA"
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the labs?",
+              "id": 8,
+              "answers": [
+                "In the ED, initial vitals Afebrile, normotensive, HR 70-100,  80% on 6L, 98% on NRB - Exam notable for: intermittentl oriented elderly man with  tachypnea who had SaO2 mid ___ on 6L - Labs were notable for:   ABG: pH ___ INR 5.0, Hgb 7.3 / Hct 23, LFTs wnl, Alb 2.3, Lactate 1.9, BUN  23, Cr 0.6, Na 148, UA normal,"
+              ]
+            },
+            {
+              "question": "(Text Summarization) Provide a brief summary of the history treatment plan for the patient?",
+              "id": 9,
+              "answers": [
+                "The patient was admitted to the hospital after presenting with respiratory distress and acute hypoxemia. He had a recent diagnosis of Enterococcus bacteremia and Osteomyelitis, and was supposed to be on Ampicillin until a certain date. He was given Vanc/Cefepime/Flagyl and sent to the ICU. The patient had multiple comorbidities including CHF, Afib on warfarin, Rheumatoid Arthritis, and Myelodysplastic syndrome among others."
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the history treatment plan for the patient?",
+              "id": 10,
+              "answers": [
+                "Per review of Rehab notes and phone discussion with wife, he  presented to ___ on ___ (14d ago) after d/c from  ___. At ___ he was admitted there for about 2  weeks and per Rehab notes found to have Enterococcal bacteremia  and Osteomyelitis (unclear where). Per Rehab notes he is  supposed to be on Ampicillin 2g Q4 until ___. On day  of arrival at ___ patient acutely hypoxemic with inc O2  requirement, CXR at Rehab showed ?Opacity of R Lung. In the ED, initial vitals Afebrile, normotensive, HR 70-100,  80% on 6L, 98% on NRB - Exam notable for: intermittentl oriented elderly man with  tachypnea who had SaO2 mid ___ on 6L - Labs were notable for:   ABG: pH ___ INR 5.0, Hgb 7.3 / Hct 23, LFTs wnl, Alb 2.3, Lactate 1.9, BUN  23, Cr 0.6, Na 148, UA normal,  - Imaging:  CXR shows Significant opacification of the right  lung and left lower lobe - Patient was given:  Vanc/Cefepime/Flagyl  Given ___ need for high flow O2, he was sent to the ICU."
+              ]
+            },
+            {
+              "question": "(Text Summarization) Provide a brief summary of the future treatment plan for the patient?",
+              "id": 11,
+              "answers": [
+                "There is no future treatment plan mentioned in the discharge summary as the patient passed away."
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the future treatment plan for the patient?",
+              "id": 12,
+              "answers": [
+                "There is no future treatment plan mentioned in the discharge summary as the patient passed away."
+              ]
+            },
+            {
+              "question": "(Content extraction) What medications are the patient currently on?",
+              "id": 13,
+              "answers": [
+                "1. Acetaminophen 650 mg PO Q6H  2. Docusate Sodium 100 mg PO BID  3. Senna 8.6 mg PO QHS  4. Ondansetron 4 mg IV Q8H:PRN nausea  5. Digoxin 0.125 mg PO DAILY  6. Furosemide 20 mg PO DAILY  7. Pantoprazole 40 mg PO Q24H  8. Nystatin Oral Suspension 5 mL PO QID  9. Timolol Maleate 0.5% 1 DROP BOTH EYES BID  10. PredniSONE 10 mg PO DAILY  11. Aspirin 81 mg PO DAILY  12. Ampicillin 2 g IV Q4H  13. Metoprolol Tartrate 75 mg PO BID  14. Lactulose 15 mL PO Q8H:PRN constip  15. Diltiazem 60 mg PO Q6H  16. Famotidine 20 mg PO DAILY  17. Warfarin 3 mg PO DAILY16  18. Multivitamins 1 TAB PO DAILY"
+              ]
+            },
+            {
+              "question": "(Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history.",
+              "id": 14,
+              "answers": [
+                "Diagnoses:\n1. Hypoxemic respiratory failure\n2. Parainfluenza 3 pneumonia\n3. Acute on chronic diastolic heart failure\n4. Deep vein thrombosis\n5. Atrial fibrillation\n6. Rheumatoid arthritis\n7. Osteomyelitis\n\nSome of the diagnoses are from recent onsite visits, while others are from past medical history."
+              ]
+            },
+            {
+              "question": "(Text Classification) Can you classify the patient's diagnosis based on the discharge summary?",
+              "id": 15,
+              "answers": [
+                "The patient's diagnoses include hypoxemic respiratory failure, parainfluenza 3 pneumonia, acute on chronic diastolic heart failure, deep vein thrombosis, atrial fibrillation, rheumatoid arthritis, and osteomyelitis."
+              ]
+            },
+            {
+              "question": "(Named Entity Recognition) Can you extract all the medications mentioned in the discharge summary?",
+              "id": 16,
+              "answers": [
+                "1. Acetaminophen\n2. Docusate Sodium\n3. Senna\n4. Ondansetron\n5. Digoxin\n6. Furosemide\n7. Pantoprazole\n8. Nystatin Oral Suspension\n9. Timolol Maleate\n10. PredniSONE\n11. Aspirin\n12. Ampicillin\n13. Metoprolol Tartrate\n14. Lactulose\n15. Diltiazem\n16. Famotidine\n17. Warfarin\n18. Multivitamins"
+              ]
+            },
+            {
+              "question": "(Text Summarization) Can you provide a summary of the patient's medical history?",
+              "id": 17,
+              "answers": [
+                "The patient's medical history includes CHF, atrial fibrillation, enterococcus bacteremia and osteomyelitis, rheumatoid arthritis, myelodysplastic syndrome, history of GI bleed due to NSAIDs, history of prostate cancer, and history of left TKR."
+              ]
+            },
+            {
+              "question": "(Temporal Information Extraction) When was the patient admitted to the hospital and when did he pass away?",
+              "id": 18,
+              "answers": [
+                "The discharge summary does not provide the exact dates of the patient's admission to the hospital or his passing. However, it does mention that the patient was transferred from another hospital after being admitted there for about 2 weeks."
+              ]
+            },
+            {
+              "question": "(Relation Extraction) What is the relationship between the patient's Enterococcal bacteremia and Osteomyelitis?",
+              "id": 19,
+              "answers": [
+                "The patient has a history of enterococcus bacteremia and osteomyelitis, but the discharge summary does not provide any further information on the relationship between the two."
+              ]
+            },
+            {
+              "question": "(Keyword Extraction) Can you identify the keywords related to the patient's respiratory distress?",
+              "id": 20,
+              "answers": [
+                "Respiratory distress, hypoxemic respiratory failure, opacification of the right lung, and parainfluenza 3 pneumonia."
+              ]
+            },
+            {
+              "answers": [
+                "1. Acetaminophen 650 mg PO Q6H",
+                "2. Docusate Sodium 100 mg PO BID",
+                "3. Senna 8.6 mg PO QHS",
+                "4. Ondansetron 4 mg IV Q8H:PRN nausea",
+                "5. Digoxin 0.125 mg PO DAILY",
+                "6. Furosemide 20 mg PO DAILY",
+                "7. Pantoprazole 40 mg PO Q24H",
+                "8. Nystatin Oral Suspension 5 mL PO QID",
+                "9. Timolol Maleate 0.5% 1 DROP BOTH EYES BID",
+                "10. PredniSONE 10 mg PO DAILY",
+                "11. Aspirin 81 mg PO DAILY",
+                "12. Ampicillin 2 g IV Q4H",
+                "13. Metoprolol Tartrate 75 mg PO BID",
+                "14. Lactulose 15 mL PO Q8H:PRN constip",
+                "15. Diltiazem 60 mg PO Q6H",
+                "16. Famotidine 20 mg PO DAILY",
+                "17. Warfarin 3 mg PO DAILY16",
+                "18. Multivitamins 1 TAB PO DAILY"
+              ],
+              "id": "21",
+              "question": "(Content Extraction) Can you extract the patient's current medications and dosages?"
+            },
+            {
+              "answers": [
+                "No Known Allergies / Adverse Drug Reactions"
+              ],
+              "id": "22",
+              "question": "(Named Entity Recognition) Can you identify any allergies or adverse drug reactions mentioned in the discharge summary?"
+            },
+            {
+              "answers": [
+                "The patient was transferred to the hospital due to difficulty breathing. He had low oxygen levels and a chest X-ray showed an opacity in the right lung."
+              ],
+              "id": "23",
+              "question": "(Paraphrasing) Can you rephrase the patient's chief complaint in simpler terms?"
+            },
+            {
+              "answers": [
+                "J18.1, Pneumonia, due to other specified organism"
+              ],
+              "id": "24",
+              "question": "(Clinical Concept Normalization) Can you normalize the patient's diagnosis to a standard medical code?"
+            },
+            {
+              "answers": [
+                "Vitals: Afebrile, normotensive, HR 70-100, 80% on 6L, 98% on NRB\nABG: pH ___, INR 5.0, Hgb 7.3/Hct 23, LFTs wnl, Alb 2.3, Lactate 1.9, BUN 23, Cr 0.6, Na 148, UA normal\nImaging: CXR shows Significant opacification of the right lung and left lower lobe"
+              ],
+              "id": "25",
+              "question": "(Feature Extraction) Can you extract the patient's vital signs and lab results from the discharge summary?"
+            },
+            {
+              "answers": [
+                "Deceased"
+              ],
+              "id": "26",
+              "question": "(Text Classification) Can you classify the patient's overall condition at the time of discharge?"
+            },
+            {
+              "answers": [
+                "Afib: atrial fibrillation\nLAD: lymphadenopathy\nHgb: hemoglobin\nHct: hematocrit\nLFTs: liver function tests\nAlb: albumin\nBUN: blood urea nitrogen\nCr: creatinine\nUA: urinalysis\nCXR: chest X-ray"
+              ],
+              "id": "27",
+              "question": "(Abbreviation Expansion) Can you expand any medical abbreviations used in the discharge summary?"
+            },
+            {
+              "answers": [
+                "The patient was admitted to the hospital due to difficulty breathing and low oxygen levels. He was found to have pneumonia and osteomyelitis caused by Enterococcus bacteremia. He was treated with antibiotics but his condition deteriorated, and he was transferred to the ICU. He passed away in the hospital."
+              ],
+              "id": "28",
+              "question": "(Natural Language Generation) Can you generate a brief summary of the patient's hospitalization and final outcome?"
+            },
+            {
+              "answers": [
+                "- CHF\n- Afib on warfarin\n- Enterococcus Bacteremia and ?Osteomyelitis on Ampicillin\n- Rheumatoid Arthritis on Prednisone\n- Myelodysplastic syndrome\n- H/O GI Bleed d/t NSAIDs\n- H/O Prostate CA\n- H/O Left TKR"
+              ],
+              "id": "29",
+              "question": "(Text Summarization) Can you provide a summary of the patient's past medical history?"
+            },
+            {
+              "answers": [
+                "Deteriorating"
+              ],
+              "id": "30",
+              "question": "(Yes/No Question) Was the patient's condition stable or deteriorating at the time of transfer to the ICU?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "10020640-DS-8",
+      "paragraphs": [
+        {
+          "context": "Allergies: No Known Allergies / Adverse Drug ReactionsAttending: ___.Chief Complaint: AMS, pneumoniaHistory of Present Illness: ___ w/ hx Alzheimer's disease, dementia, DM2, anemia,  depression, osteoarthritis transfer from OSH w/ AMS and  pneumonia. Patient noted to be more confused than usual and  complaining of general malaise today at her ___ facility prior  to being taken to ___ for evaluation. She was found there to  have b/l pneumonia, hyperglycemia and hypernatremia. She was  given zosyn prior to transfer to ___. Transfer to ___ d/t no  ICU bed at ___. Patient was receiving zosyn but had not been  given vancomycin on arrival. At the OSH, initial vitals were ___ 99.1 90% on RA 20sk.   Initial labs were significnat for WBC 2.6, k+ 3.0, Na 162  glucose 489.  She was give 1 liter of normal saline.  She was  diagnosed with hypokalemia and a pneumonia and transferred to  ___ as there were no open ICU beds. She was given IV Zosyn  3.375 grams, was ordered for 1 gm vancomycn, and given 12 units  regular insulin and 1 L normal saline. In the ED, initial VS were 99.2 130 ___ 94% 15L. She was  given 1g Vanc, tylenol, and 1L NS for hypovolemia hypernatermia.   On arrival to the MICU,  VS T 98.1 HR 107 BP 148/120 RR 27 96%  on face mask. Pt is responding to commands and speaking  intermittently but unable to provide any history.Past Medical History: Alzheimer's  Dementia w/ behavioral disturbances Delusional Disorder Hemiplegia ___ CVA Peripheral vascular disease Hypertension Coronary Artery Disease NIDDM Anemia Major Depression w/o psychosis Osteoarthritis Urinary Incontinence Pernicious Anemia DysphagiaSocial History: ___Family History: UnknownMedications on Admission: The Preadmission Medication list is accurate and complete. 1. DuoNeb *NF* (ipratropium-albuterol) 0.5 mg-3 mg(2.5 mg  base)/3 mL Inhalation q6hrs cough  2. Metoprolol Tartrate 12.5 mg PO BID  3. Guaifenesin ER 600 mg PO BID:PRN cough  4. Guaifenesin-Dextromethorphan ___ mL PO Q6H:PRN cough  5. Simvastatin 20 mg PO DAILY  6. Levofloxacin 500 mg PO Q24H  end date ___. Citalopram 20 mg PO DAILY  8. Glargine 14 Units Bedtime 9. Bisacodyl ___AILY:PRN constipation  10. Docusate Sodium 100 mg PO BID  11. Dulcolax ___X/WEEK (MO,TH)  ___ and ___   12. Fleet Enema ___AILY:PRN constipation  13. Senna 2 TAB PO HS  14. Acetaminophen 650 mg PO Q4H:PRN pain  15. Norco *NF* (HYDROcodone-acetaminophen) ___ mg Oral qHS  16. Norco *NF* (HYDROcodone-acetaminophen) ___ mg Oral TID:PRN  painDischarge Disposition: Extended CareDischarge Diagnosis:  Primary Diagnosis Healthcare associated pneumonia  Hypernatremia  Acute metabolic encephalopathy Secondary Diagnosis Alzheimer's dementia  HypertensionDischarge Condition:  Mental Status Confused - always. Level of Consciousness Alert and interactive. Activity Status Out of Bed with assistance to chair or  wheelchair.",
+          "qas": [
+            {
+              "answers": [
+                "Healthcare associated pneumonia"
+              ],
+              "id": "1",
+              "question": "(Text Summarization) What is the patient's primary diagnosis?"
+            },
+            {
+              "answers": [
+                "Patient noted to be more confused than usual and  complaining of general malaise today at her ___ facility prior  to being taken to ___ for evaluation. She was found there to  have b/l pneumonia, hyperglycemia and hypernatremia. She was  given zosyn prior to transfer to ___. Transfer to ___ d/t no  ICU bed at ___. Patient was receiving zosyn but had not been  given vancomycin on arrival.",
+                "In the ED, initial VS were 99.2 130 ___ 94% 15L. She was  given 1g Vanc, tylenol, and 1L NS for hypovolemia hypernatermia.",
+                "Discharge Diagnosis:  Primary Diagnosis Healthcare associated pneumonia  Hypernatremia  Acute metabolic encephalopathy"
+              ],
+              "id": "2",
+              "question": "(Content extraction) Which sentences in the note describe the diagnosis?"
+            },
+            {
+              "answers": [
+                "Alzheimer's disease",
+                "dementia",
+                "DM2",
+                "anemia",
+                "depression",
+                "osteoarthritis"
+              ],
+              "id": "3",
+              "question": "(Text Summarization) What are the comorbidities of the patient?"
+            },
+            {
+              "answers": [
+                "History of Present Illness: ___ w/ hx Alzheimer's disease, dementia, DM2, anemia,  depression, osteoarthritis transfer from OSH w/ AMS and  pneumonia.",
+                "Past Medical History: Alzheimer's  Dementia w/ behavioral disturbances Delusional Disorder Hemiplegia ___ CVA Peripheral vascular disease Hypertension Coronary Artery Disease NIDDM Anemia Major Depression w/o psychosis Osteoarthritis Urinary Incontinence Pernicious Anemia Dysphagia"
+              ],
+              "id": "4",
+              "question": "(Content extraction) Which sentences in the note describe the comorbidities?"
+            },
+            {
+              "answers": [
+                "DuoNeb *NF* (ipratropium-albuterol) 0.5 mg-3 mg(2.5 mg  base)/3 mL Inhalation q6hrs cough",
+                "Metoprolol Tartrate 12.5 mg PO BID",
+                "Guaifenesin ER 600 mg PO BID:PRN cough",
+                "Guaifenesin-Dextromethorphan ___ mL PO Q6H:PRN cough",
+                "Simvastatin 20 mg PO DAILY",
+                "Levofloxacin 500 mg PO Q24H  end date ___. Citalopram 20 mg PO DAILY",
+                "Glargine 14 Units Bedtime",
+                "Bisacodyl ___AILY:PRN constipation",
+                "Docusate Sodium 100 mg PO BID",
+                "Dulcolax ___X/WEEK (MO,TH)  ___ and ___",
+                "Fleet Enema ___AILY:PRN constipation",
+                "Senna 2 TAB PO HS",
+                "Acetaminophen 650 mg PO Q4H:PRN pain",
+                "Norco *NF* (HYDROcodone-acetaminophen) ___ mg Oral qHS",
+                "Norco *NF* (HYDROcodone-acetaminophen) ___ mg Oral TID:PRN  pain"
+              ],
+              "id": "5",
+              "question": "(Named Entity Recognition) List all the medications mentioned in the discharge summary."
+            },
+            {
+              "answers": [
+                "Medications on Admission: The Preadmission Medication list is accurate and complete. 1. DuoNeb *NF* (ipratropium-albuterol) 0.5 mg-3 mg(2.5 mg  base)/3 mL Inhalation q6hrs cough  2. Metoprolol Tartrate 12.5 mg PO BID  3. Guaifenesin ER 600 mg PO BID:PRN cough  4. Guaifenesin-Dextromethorphan ___ mL PO Q6H:PRN cough  5. Simvastatin 20 mg PO DAILY  6. Levofloxacin 500 mg PO Q24H  end date ___. Citalopram 20 mg PO DAILY  8. Glargine 14 Units Bedtime 9. Bisacodyl ___AILY:PRN constipation  10. Docusate Sodium 100 mg PO BID  11. Dulcolax ___X/WEEK (MO,TH)  ___ and ___   12. Fleet Enema ___AILY:PRN constipation  13. Senna 2 TAB PO HS  14. Acetaminophen 650 mg PO Q4H:PRN pain  15. Norco *NF* (HYDROcodone-acetaminophen) ___ mg Oral qHS  16. Norco *NF* (HYDROcodone-acetaminophen) ___ mg Oral TID:PRN  pain",
+                "She was  given 1 liter of normal saline. ",
+                "She was given IV Zosyn  3.375 grams, was ordered for 1 gm vancomycn, and given 12 units  regular insulin and 1 L normal saline.",
+                "In the ED, initial VS were 99.2 130 ___ 94% 15L. She was  given 1g Vanc, tylenol, and 1L NS for hypovolemia hypernatermia."
+              ],
+              "id": "6",
+              "question": "(Content extraction) Which sentences in the note describe the medications?"
+            },
+            {
+              "answers": [
+                "WBC 2.6",
+                "k+ 3.0",
+                "Na 162",
+                "glucose 489"
+              ],
+              "id": "7",
+              "question": "(Named Entity Recognition) List all the labs mentioned in the discharge summary."
+            },
+            {
+              "answers": [
+                "At the OSH, initial vitals were ___ 99.1 90% on RA 20sk.   Initial labs were significnat for WBC 2.6, k+ 3.0, Na 162  glucose 489.  She was give 1 liter of normal saline.  She was  diagnosed with hypokalemia and a pneumonia and transferred to  ___ as there were no open ICU beds."
+              ],
+              "id": "8",
+              "question": "(Content extraction) Which sentences in the note describe the labs?"
+            },
+            {
+              "answers": [
+                "Patient was transferred from OSH with AMS and pneumonia and diagnosed with healthcare-associated pneumonia, hypernatremia, and acute metabolic encephalopathy. She was given various medications, including antibiotics, insulin, and painkillers. Initial labs showed hypokalemia, and she received normal saline to address hypovolemia. She was transferred to the MICU due to a lack of open ICU beds. Upon arrival at the MICU, she was given vancomycin and tylenol for hypovolemia and hypernatremia.",
+                "Treatment plan for the patient included antibiotics, insulin, pain management, and addressing hypovolemia and hypokalemia. The patient was transferred from the OSH to the MICU due to a lack of open ICU beds."
+              ],
+              "id": "9",
+              "question": "(Text Summarization) Provide a brief summary of the history treatment plan for the patient?"
+            },
+            {
+              "answers": [
+                "She was given zosyn prior to transfer to ___. Transfer to ___ d/t no  ICU bed at ___.",
+                "In the ED, initial VS were 99.2 130 ___ 94% 15L. She was  given 1g Vanc, tylenol, and 1L NS for hypovolemia hypernatermia.",
+                "She was given IV Zosyn  3.375 grams, was ordered for 1 gm vancomycn, and given 12 units  regular insulin and 1 L normal saline.",
+                "At the OSH, initial vitals were ___ 99.1 90% on RA 20sk.   Initial labs were significnat for WBC 2.6, k+ 3.0, Na 162  glucose 489.  She was give 1 liter of normal saline.  She was  diagnosed with hypokalemia and a pneumonia and transferred to  ___ as there were no open ICU beds.",
+                "Patient was transferred from OSH with AMS and pneumonia and diagnosed with healthcare-associated pneumonia, hypernatremia, and acute metabolic encephalopathy. She was given various medications, including antibiotics, insulin, and painkillers. Initial labs showed hypokalemia, and she received normal saline to address hypovolemia. She was transferred to the MICU due to a lack of open ICU beds.",
+                "Upon arrival at the MICU, she was given vancomycin and tylenol for hypovolemia and hypernatremia."
+              ],
+              "id": "10",
+              "question": "(Content extraction) Which sentences in the note describe the history treatment plan for the patient?"
+            },
+            {
+              "question": "(Text Summarization) Provide a brief summary of the future treatment plan for the patient?",
+              "id": 11,
+              "answers": [
+                "The patient was discharged to extended care with a diagnosis of healthcare-associated pneumonia, hypernatremia, and acute metabolic encephalopathy. No specific future treatment plan was mentioned in the discharge summary."
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the future treatment plan for the patient?",
+              "id": 12,
+              "answers": [
+                "No specific future treatment plan was mentioned in the discharge summary."
+              ]
+            },
+            {
+              "question": "(Content extraction) What medications are the patient currently on?",
+              "id": 13,
+              "answers": [
+                "1. DuoNeb *NF* (ipratropium-albuterol) 0.5 mg-3 mg(2.5 mg  base)/3 mL Inhalation q6hrs cough  2. Metoprolol Tartrate 12.5 mg PO BID  3. Guaifenesin ER 600 mg PO BID:PRN cough  4. Guaifenesin-Dextromethorphan ___ mL PO Q6H:PRN cough  5. Simvastatin 20 mg PO DAILY  6. Levofloxacin 500 mg PO Q24H  end date ___. Citalopram 20 mg PO DAILY  8. Glargine 14 Units Bedtime 9. Bisacodyl ___AILY:PRN constipation  10. Docusate Sodium 100 mg PO BID  11. Dulcolax ___X/WEEK (MO,TH)  ___ and ___   12. Fleet Enema ___AILY:PRN constipation  13. Senna 2 TAB PO HS  14. Acetaminophen 650 mg PO Q4H:PRN pain  15. Norco *NF* (HYDROcodone-acetaminophen) ___ mg Oral qHS  16. Norco *NF* (HYDROcodone-acetaminophen) ___ mg Oral TID:PRN  pain"
+              ]
+            },
+            {
+              "question": "(Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history.",
+              "id": 14,
+              "answers": [
+                "Primary Diagnosis: Healthcare associated pneumonia, hypernatremia, acute metabolic encephalopathy; Secondary Diagnosis: Alzheimer's dementia, hypertension. The primary diagnoses were from the recent onsite visit, while the secondary diagnoses were from the past medical history."
+              ]
+            },
+            {
+              "question": "(Question Answering) What was the patient's chief complaint upon admission?",
+              "id": 15,
+              "answers": [
+                "The patient's chief complaint upon admission was AMS (altered mental status) and pneumonia."
+              ]
+            },
+            {
+              "question": "(Text Summarization) Can you provide a brief summary of the patient's medical history?",
+              "id": 16,
+              "answers": [
+                "The patient has a medical history significant for Alzheimer's disease, dementia, type 2 diabetes mellitus, anemia, depression, osteoarthritis, hemiplegia, peripheral vascular disease, hypertension, coronary artery disease, urinary incontinence, pernicious anemia, and dysphagia."
+              ]
+            },
+            {
+              "question": "(Temporal Information Extraction) When was the patient diagnosed with hypokalemia and pneumonia?",
+              "id": 17,
+              "answers": [
+                "The patient was diagnosed with hypokalemia and pneumonia at the OSH (outside hospital) prior to transfer to another hospital. The exact date was not mentioned in the discharge summary."
+              ]
+            },
+            {
+              "question": "(Named Entity Recognition) What medications was the patient taking upon admission?",
+              "id": 18,
+              "answers": [
+                "The patient was taking the following medications upon admission: DuoNeb, Metoprolol Tartrate, Guaifenesin ER, Guaifenesin-Dextromethorphan, Simvastatin, Levofloxacin, Citalopram, Glargine, Bisacodyl, Docusate Sodium, Dulcolax, Fleet Enema, Senna, Acetaminophen, Norco."
+              ]
+            },
+            {
+              "question": "(Relation Extraction) Is there a correlation between the patient's diabetes and their current condition?",
+              "id": 19,
+              "answers": [
+                "The discharge summary did not mention any correlation between the patient's diabetes and their current condition (AMS, pneumonia, hypernatremia, acute metabolic encephalopathy)."
+              ]
+            },
+            {
+              "question": "(Keyword Extraction) What are the most significant keywords in the patient's medical history?",
+              "id": 20,
+              "answers": [
+                "The most significant keywords in the patient's medical history are: Alzheimer's disease, dementia, type 2 diabetes mellitus, anemia, depression, osteoarthritis, hemiplegia, peripheral vascular disease, hypertension, coronary artery disease, urinary incontinence, pernicious anemia, and dysphagia."
+              ]
+            },
+            {
+              "answers": [
+                "T 98.1 HR 107 BP 148/120 RR 27 96%  on face mask."
+              ],
+              "id": "21",
+              "question": "(Content Extraction) Can you extract the patient's current vital signs?"
+            },
+            {
+              "answers": [
+                "The patient was admitted with confusion, pneumonia, hyperglycemia, and hypernatremia. She was transferred to the MICU and given various medications. Her primary diagnosis was healthcare-associated pneumonia with hypernatremia and acute metabolic encephalopathy. She has a history of Alzheimer's dementia, delusional disorder, hemiplegia, peripheral vascular disease, hypertension, coronary artery disease, NIDDM, anemia, major depression without psychosis, osteoarthritis, urinary incontinence, pernicious anemia, and dysphagia. She was discharged in a confused mental state, but alert and interactive.",
+                "The patient was transferred from another facility with AMS and pneumonia. She was given zosyn and normal saline prior to transfer to the MICU. She had hyperglycemia and hypernatremia, and was diagnosed with hypokalemia and pneumonia. Her primary diagnosis was healthcare-associated pneumonia with hypernatremia and acute metabolic encephalopathy. She has a history of Alzheimer's dementia, delusional disorder, hemiplegia, peripheral vascular disease, hypertension, coronary artery disease, NIDDM, anemia, major depression without psychosis, osteoarthritis, urinary incontinence, pernicious anemia, and dysphagia. She was discharged in a confused mental state, but alert and interactive."
+              ],
+              "id": "22",
+              "question": "(Natural Language Generation) Please generate a summary of the patient's current condition."
+            },
+            {
+              "answers": [
+                "Healthcare associated pneumonia"
+              ],
+              "id": "23",
+              "question": "(Text Classification) What is the primary diagnosis for the patient's hospitalization?"
+            },
+            {
+              "answers": [
+                "altered mental status"
+              ],
+              "id": "24",
+              "question": "(Abbreviation Expansion) What does \"AMS\" stand for in the patient's medical history?"
+            },
+            {
+              "answers": [
+                "Age and gender information is not available in the given summary."
+              ],
+              "id": "25",
+              "question": "(Feature Extraction) Can you extract the patient's age and gender from the summary?"
+            },
+            {
+              "answers": [
+                "The patient is experiencing confusion and has been diagnosed with pneumonia."
+              ],
+              "id": "26",
+              "question": "(Paraphrasing) Can you rephrase the patient's chief complaint in simpler terms?"
+            },
+            {
+              "answers": [
+                "There is a relationship between the patient's dementia and her current condition, as she has a history of Alzheimer's dementia and is currently experiencing acute metabolic encephalopathy."
+              ],
+              "id": "27",
+              "question": "(Relation Extraction) Is there a relationship between the patient's dementia and their current condition?"
+            },
+            {
+              "answers": [
+                "The summary does not mention any medical procedures."
+              ],
+              "id": "28",
+              "question": "(Named Entity Recognition) Can you identify any medical procedures mentioned in the summary?"
+            },
+            {
+              "answers": [
+                "No, the patient had not been given vancomycin on arrival at the hospital."
+              ],
+              "id": "29",
+              "question": "(Yes/No Question) Was the patient given vancomycin upon arrival at the hospital?"
+            },
+            {
+              "answers": [
+                "The patient's discharge diagnosis was healthcare-associated pneumonia, hypernatremia, and acute metabolic encephalopathy."
+              ],
+              "id": "30",
+              "question": "(Question Answering) What is the patient's discharge diagnosis?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "13977966-DS-14",
+      "paragraphs": [
+        {
+          "context": "Service: SURGERYHistory of Present Illness: Ms ___ is a ___ woman, who was originally diagnosed with carcinoma of the right breast on ___, which presented as an extremely locally advanced, large exophytic necrotic breast mass complicated by bleeding and repeated episodes of cellulitis and infection required repeating admissions to the hospital and IV  antibiotics. Ms. ___ declined surgery, but ultimately agreed with a radical mastectomy for palliative reasons.    She was interested in being able to attend church and be able to spend more time with her family and friends, which she has been able to do.  Prior to the procedure, she spent her time homebound requiring dressing changes every two to two and a half hours and persistently had a very foul-smelling odor.  At the time of the right modified radical mastectomy on ___, she was found to have an invasive ductal carcinoma, 19 x 16 x 11.5 cm with direct invasion into the dermis and epidermis of  the skin with ulceration, grade 3 and deep margins negative, less than 0.1 cm from the deep margin for invasive carcinoma.  She  had nine negative axillary lymph nodes.  The tumor was estrogen and progesterone and HER-2/neu negative.  She did well until early ___ when she was noted to have recurrent nodules on her chest wall. She was seen by her medical oncologist, Dr. ___.  On ___, CT of the torso demonstrated the chest wall recurrence as well as progression of nodal disease and lung metastases. She was initially started on capciabine, but with marked and rapid progression of her disease,she was started on oral CMF. She presents for a  palliative resection of the chest wall recurrences.Past Medical History: 1. Stage IV metastatic, triple negative, poorly differentiated  invasive breast carcinoma  2. Schizophrenia (patient denies this diagnosis, treated by Dr.  ___ at ___ in ___ 3. Hypertension 4. Stage IIA colonic adenocarcinoma (underwent right colectimy  ___, CEA normal at the time of surgery) 5. History of high-grade SIL; patient declined follow-up 6. Polypoid endometrial lesion ___ patient declined  follow-up 7. Hernia repair 8. hemorrhoids s/p resectionSocial History: ___Physical Exam:  Gen NAD alert and oriented, bilateral hand tremor HEENT non traumatic, non iceteric CV RRR, no m,r,g Resp CTABL Abd Soft non tender non distended Ext bilateral tremors in hand Breast incisions c/d/i. right JP drain with sero sang",
+          "qas": [
+            {
+              "answers": [
+                "Stage IV metastatic, triple negative, poorly differentiated invasive breast carcinoma"
+              ],
+              "id": "1",
+              "question": "(Text Summarization) What is the patient's primary diagnosis?"
+            },
+            {
+              "answers": [
+                "Ms ___ is a ___ woman, who was originally diagnosed with carcinoma of the right breast on ___, which presented as an extremely locally advanced, large exophytic necrotic breast mass complicated by bleeding and repeated episodes of cellulitis and infection required repeating admissions to the hospital and IV  antibiotics. Ms. ___ declined surgery, but ultimately agreed with a radical mastectomy for palliative reasons.    She was interested in being able to attend church and be able to spend more time with her family and friends, which she has been able to do.  Prior to the procedure, she spent her time homebound requiring dressing changes every two to two and a half hours and persistently had a very foul-smelling odor.  At the time of the right modified radical mastectomy on ___, she was found to have an invasive ductal carcinoma, 19 x 16 x 11.5 cm with direct invasion into the dermis and epidermis of  the skin with ulceration, grade 3 and deep margins negative, less than 0.1 cm from the deep margin for invasive carcinoma.  She  had nine negative axillary lymph nodes.  The tumor was estrogen and progesterone and HER-2/neu negative.  She did well until early ___ when she was noted to have recurrent nodules on her chest wall. She was seen by her medical oncologist, Dr. ___.  On ___, CT of the torso demonstrated the chest wall recurrence as well as progression of nodal disease and lung metastases. She was initially started on capciabine, but with marked and rapid progression of her disease,she was started on oral CMF. She presents for a  palliative resection of the chest wall recurrences.",
+                "At the time of the right modified radical mastectomy on ___, she was found to have an invasive ductal carcinoma, 19 x 16 x 11.5 cm with direct invasion into the dermis and epidermis of  the skin with ulceration, grade 3 and deep margins negative, less than 0.1 cm from the deep margin for invasive carcinoma.",
+                "She did well until early ___ when she was noted to have recurrent nodules on her chest wall. She was seen by her medical oncologist, Dr. ___.  On ___, CT of the torso demonstrated the chest wall recurrence as well as progression of nodal disease and lung metastases."
+              ],
+              "id": "2",
+              "question": "(Content extraction) Which sentences in the note describe the diagnosis?"
+            },
+            {
+              "answers": [
+                "Schizophrenia",
+                "Hypertension",
+                "Stage IIA colonic adenocarcinoma",
+                "History of high-grade SIL; patient declined follow-up",
+                "Polypoid endometrial lesion ___ patient declined  follow-up",
+                "Hernia repair",
+                "hemorrhoids s/p resection"
+              ],
+              "id": "3",
+              "question": "(Text Summarization) What are the comorbidities of the patient?"
+            },
+            {
+              "answers": [
+                "Schizophrenia (patient denies this diagnosis, treated by Dr.  ___ at ___ in ___",
+                "Hypertension",
+                "Stage IIA colonic adenocarcinoma (underwent right colectimy  ___, CEA normal at the time of surgery)",
+                "History of high-grade SIL; patient declined follow-up",
+                "Polypoid endometrial lesion ___ patient declined  follow-up",
+                "Hernia repair",
+                "hemorrhoids s/p resection"
+              ],
+              "id": "4",
+              "question": "(Content extraction) Which sentences in the note describe the comorbidities?"
+            },
+            {
+              "answers": [
+                "capciabine",
+                "oral CMF"
+              ],
+              "id": "5",
+              "question": "(Named Entity Recognition) List all the medications mentioned in the discharge summary?"
+            },
+            {
+              "answers": [
+                "She was initially started on capciabine, but with marked and rapid progression of her disease,she was started on oral CMF."
+              ],
+              "id": "6",
+              "question": "(Content extraction) Which sentences in the note describe the medications?"
+            },
+            {
+              "answers": [],
+              "id": "7",
+              "question": "(Named Entity Recognition) List all the labs mentioned in the discharge summary?"
+            },
+            {
+              "answers": [],
+              "id": "8",
+              "question": "(Content extraction) Which sentences in the note describe the labs?"
+            },
+            {
+              "answers": [
+                "Ms ___ is a ___ woman, who was originally diagnosed with carcinoma of the right breast on ___, which presented as an extremely locally advanced, large exophytic necrotic breast mass complicated by bleeding and repeated episodes of cellulitis and infection required repeating admissions to the hospital and IV  antibiotics. Ms. ___ declined surgery, but ultimately agreed with a radical mastectomy for palliative reasons.    She was interested in being able to attend church and be able to spend more time with her family and friends, which she has been able to do.  Prior to the procedure, she spent her time homebound requiring dressing changes every two to two and a half hours and persistently had a very foul-smelling odor.  At the time of the right modified radical mastectomy on ___, she was found to have an invasive ductal carcinoma, 19 x 16 x 11.5 cm with direct invasion into the dermis and epidermis of  the skin with ulceration, grade 3 and deep margins negative, less than 0.1 cm from the deep margin for invasive carcinoma.  She  had nine negative axillary lymph nodes.  The tumor was estrogen and progesterone and HER-2/neu negative.  She did well until early ___ when she was noted to have recurrent nodules on her chest wall. She was seen by her medical oncologist, Dr. ___.  On ___, CT of the torso demonstrated the chest wall recurrence as well as progression of nodal disease and lung metastases. She was initially started on capciabine, but with marked and rapid progression of her disease,she was started on oral CMF. She presents for a  palliative resection of the chest wall recurrences."
+              ],
+              "id": "9",
+              "question": "(Text Summarization) Provide a brief summary of the history treatment plan for the patient?"
+            },
+            {
+              "answers": [
+                "Ms ___ is a ___ woman, who was originally diagnosed with carcinoma of the right breast on ___, which presented as an extremely locally advanced, large exophytic necrotic breast mass complicated by bleeding and repeated episodes of cellulitis and infection required repeating admissions to the hospital and IV  antibiotics. Ms. ___ declined surgery, but ultimately agreed with a radical mastectomy for palliative reasons.    She was interested in being able to attend church and be able to spend more time with her family and friends, which she has been able to do.  Prior to the procedure, she spent her time homebound requiring dressing changes every two to two and a half hours and persistently had a very foul-smelling odor.  At the time of the right modified radical mastectomy on ___, she was found to have an invasive ductal carcinoma, 19 x 16 x 11.5 cm with direct invasion into the dermis and epidermis of  the skin with ulceration, grade 3 and deep margins negative, less than 0.1 cm from the deep margin for invasive carcinoma.  She  had nine negative axillary lymph nodes.  The tumor was estrogen and progesterone and HER-2/neu negative.  She did well until early ___ when she was noted to have recurrent nodules on her chest wall. She was seen by her medical oncologist, Dr. ___.  On ___, CT of the torso demonstrated the chest wall recurrence as well as progression of nodal disease and lung metastases. She was initially started on capciabine, but with marked and rapid progression of her disease,she was started on oral CMF. She presents for a  palliative resection of the chest wall recurrences."
+              ],
+              "id": "10",
+              "question": "(Content extraction) Which sentences in the note describe the history treatment plan for the patient?"
+            },
+            {
+              "answers": [
+                "The patient presents for palliative resection of the chest wall recurrences."
+              ],
+              "id": "11",
+              "question": "(Text Summarization) Provide a brief summary of the future treatment plan for the patient?"
+            },
+            {
+              "answers": [
+                "She presents for a  palliative resection of the chest wall recurrences."
+              ],
+              "id": "12",
+              "question": "(Content extraction) Which sentences in the note describe the future treatment plan for the patient?"
+            },
+            {
+              "answers": [
+                "Capciabine",
+                "oral CMF"
+              ],
+              "id": "13",
+              "question": "(Content extraction) What medications are the patient currently on?"
+            },
+            {
+              "answers": [
+                "Stage IV metastatic, triple negative, poorly differentiated invasive breast carcinoma",
+                "Schizophrenia",
+                "Hypertension",
+                "Stage IIA colonic adenocarcinoma",
+                "History of high-grade SIL",
+                "Polypoid endometrial lesion",
+                "Hernia repair",
+                "hemorrhoids s/p resection"
+              ],
+              "id": "14",
+              "question": "(Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history."
+            },
+            {
+              "answers": [
+                "carcinoma of the right breast"
+              ],
+              "id": "15",
+              "question": "(Question Answering) What was the patient's initial diagnosis?"
+            },
+            {
+              "answers": [
+                "The patient has a history of Stage IV metastatic, triple negative, poorly differentiated invasive breast carcinoma, Schizophrenia, Hypertension, Stage IIA colonic adenocarcinoma, History of high-grade SIL, Polypoid endometrial lesion, Hernia repair, and hemorrhoids s/p resection."
+              ],
+              "id": "16",
+              "question": "(Natural Language Generation) Generate a brief summary of the patient's medical history."
+            },
+            {
+              "answers": [
+                "The patient has Stage IV metastatic, triple negative, poorly differentiated invasive breast carcinoma with chest wall recurrence, nodal disease progression, and lung metastases. She is also being treated for hypertension and has a history of colonic adenocarcinoma, SIL, endometrial lesion, hernia, and hemorrhoids."
+              ],
+              "id": "17",
+              "question": "(Text Summarization) Can you summarize the patient's current condition in a few sentences?"
+            },
+            {
+              "answers": [
+                "Triple negative"
+              ],
+              "id": "18",
+              "question": "(Text Classification) Is the patient's breast cancer triple negative or positive for any receptors?"
+            },
+            {
+              "answers": [
+                "The patient underwent right colectomy on an unspecified date."
+              ],
+              "id": "19",
+              "question": "(Temporal Information Extraction) When did the patient undergo a right colectomy?"
+            },
+            {
+              "answers": [
+                "There is no relationship mentioned between the patient's breast cancer and colonic adenocarcinoma."
+              ],
+              "id": "20",
+              "question": "(Relation Extraction) Is there any relationship between the patient's breast cancer and colonic adenocarcinoma?"
+            },
+            {
+              "answers": [
+                "carcinoma of the right breast",
+                "bleeding",
+                "cellulitis",
+                "invasive ductal carcinoma",
+                "chest wall recurrence",
+                "nodal disease",
+                "lung metastases",
+                "metastatic",
+                "triple negative",
+                "poorly differentiated invasive breast carcinoma",
+                "Stage IIA colonic adenocarcinoma",
+                "high-grade SIL",
+                "polypoid endometrial lesion",
+                "hypertension",
+                "schizophrenia",
+                "hernia repair",
+                "hemorrhoids s/p resection"
+              ],
+              "id": "21",
+              "question": "(Named Entity Recognition) Can you identify all the medical conditions the patient has been diagnosed with?"
+            },
+            {
+              "answers": [
+                "Ms ___ declined surgery due to an extremely locally advanced, large exophytic necrotic breast mass complicated by bleeding and repeated episodes of cellulitis and infection required repeating admissions to the hospital and IV antibiotics. "
+              ],
+              "id": "22",
+              "question": "(Paraphrasing) Can you rephrase the patient's reason for declining surgery initially?"
+            },
+            {
+              "answers": [
+                "carcinoma",
+                "breast",
+                "mastectomy",
+                "palliative",
+                "adenocarcinoma",
+                "CEA",
+                "SIL",
+                "endometrial lesion",
+                "hypertension",
+                "schizophrenia",
+                "hernia",
+                "hemorrhoids"
+              ],
+              "id": "23",
+              "question": "(Clinical Concept Normalization) Can you normalize the medical terminology used in the discharge summary?"
+            },
+            {
+              "answers": [
+                "carcinoma",
+                "breast",
+                "mastectomy",
+                "palliative",
+                "adenocarcinoma",
+                "CEA",
+                "SIL",
+                "endometrial lesion",
+                "hypertension",
+                "schizophrenia",
+                "hernia",
+                "hemorrhoids",
+                "invasive ductal carcinoma",
+                "chest wall recurrence",
+                "nodal disease",
+                "lung metastases",
+                "metastatic",
+                "triple negative",
+                "poorly differentiated invasive breast carcinoma"
+              ],
+              "id": "24",
+              "question": "(Keyword Extraction) What are the most important keywords in the patient's medical history?"
+            },
+            {
+              "answers": [
+                "Jackson-Pratt"
+              ],
+              "id": "25",
+              "question": "(Abbreviation Expansion) What does JP stand for in 'right JP drain with sero sang'?"
+            },
+            {
+              "answers": [
+                "invasive ductal carcinoma",
+                "19 x 16 x 11.5 cm",
+                "direct invasion into the dermis and epidermis of the skin with ulceration",
+                "grade 3",
+                "deep margins negative",
+                "estrogen and progesterone and HER-2/neu negative",
+                "nine negative axillary lymph nodes"
+              ],
+              "id": "26",
+              "question": "(Feature Extraction) What are the key features of the patient's breast cancer?"
+            },
+            {
+              "answers": [
+                "capciabine",
+                "oral CMF"
+              ],
+              "id": "27",
+              "question": "(Content Extraction) Can you extract all the medications the patient has been prescribed?"
+            },
+            {
+              "answers": [
+                "metastatic"
+              ],
+              "id": "28",
+              "question": "(Text Classification) Is the patient's breast cancer currently metastatic or non-metastatic?"
+            },
+            {
+              "answers": [
+                "Yes"
+              ],
+              "id": "29",
+              "question": "(Yes/No Question) Did the patient undergo surgery for her chest wall recurrences?"
+            },
+            {
+              "answers": [
+                "it is HER-"
+              ],
+              "id": "30",
+              "question": "(Multiple Choice) Which of the following is true about the patient's breast cancer: a) it is estrogen and progesterone positive, b) it is HER-"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "10024913-DS-19",
+      "paragraphs": [
+        {
+          "context": "Sex: MService: MEDICINEAllergies: No Known Allergies / Adverse Drug ReactionsAttending: ___.Chief Complaint: Fatigue.Major Surgical or Invasive Procedure: None.History of Present Illness: ___ with 3VD, DM, Alzheimer's who presented to ___ clinic today  with two days of fatigue, malaise, dizziness, somnolence, and  decreased PO intake. He was found by his PCP to be hypotensive  with SBP 66 and sent to the ED.   .   Per OMR, the patient arrived to ___ in a wheelchair accompanied  by his wife. Per wife, patient has been complaining of fatigue  but no other symptoms. He was nauseous in parking lot but did  not vomit. No recent fever, chills, syncope, cough, CP, SOB, abd  pain, dysuria, or diarrhea. No recent med changes but he does  take atenolol. The patient's wife administers his medications  and does not recall giving extra dose for any reason. Reports  glycemic control has been normal.   . In the ED, initial vs were 97.4 70 78/53 16 98% RA. Clinically  dry on exam. Labs notable for creatinine of 1.8, lipase of 146,  HCT 33 (baseline 36). EKG - nsr, <1mm STE V1-v3: no sig change  prior. Will add on troponin. CXR was unremarkable. U/A not done.  Patient was given 2L IVF and his SBP has remained >110. VS on transfer HR 69 BP ___ 100% on R. For access patient20g in  right arm and 18 gauge in right EJ.   .   On the floor, the patient is pleasantly demented and eating  dinner. He reports that he feels completely better after the IVF  and again denies any CP, SOB, nausea, vomiting. He initially  stated that he had an episode of diarrhea at some point and then  states maybe he has been constipated.Family History: His brother had a heart attack @ ___.  There is no family history  of premature coronary artery disease or sudden death.Physical Exam:  Upon admission  General Alert, no acute distress eating a sandwich HEENT Sclera anicteric, MMM, Neck supple, Lungs Clear to auscultation bilaterally, CV Regular rate and rhythm, Abdomen soft, non-tender, non-distended, bowel sounds present,  no rebound tenderness or guarding, no organomegaly Skin Well demarcated round hyperpigmented lesions on palms, no  other rash. Ext warm, well perfused, 2+ pulses, dry skin over backs of  hands and lower legs Neuro CNs2-12 intact, A&O x1 (self), answers questions  appropriately but promptly forgets conversation.   . At discharge  gen pleasant male in NAD HEENT anicteric, MMM CV RRR, no m/r/g Resp CTAB, no w/r/c Abd +BS, soft, NT, ND Ext wwp, DP 2+, no ___ edema Neuro oriented to self, knows his wife's name and number. not  oriented to date, year, place.Medications on Admission: ATENOLOL - 50 mg Tablet - 1 Tablet(s) by mouth once a day   CITALOPRAM - 20 mg Tablet - 1 Tablet(s) by mouth each morning   CLOPIDOGREL [PLAVIX] - 75 mg Tablet - 1 Tablet(s) by mouth daily  GALANTAMINE - 16 mg Cap,24 hr 1 Cap(s) by qAM   GLIPIZIDE - 10 mg Tablet - 1 (One) Tablet(s) by mouth twice a  day   ISOSORBIDE MONONITRATE - 30 mg Tablet SR by mouth daily   LISINOPRIL - 40 mg Tablet by mouth daily   MEMANTINE [NAMENDA] 10 mg Tablet by mouth twice daily   METFORMIN 1,000 mg Tablet by mouth twice a day (take with meals)    NITROGLYCERIN - 0.4 mg Tablet SL every 5 minutes up to 3 times   PIOGLITAZONE [ACTOS] 45 mg Tablet by mouth once a day   QUETIAPINE [SEROQUEL] - 25 mg Tablet by mouth BID   RANITIDINE HCL 150 mg Tablet by mouth once a day   SIMVASTATIN - 40 mg Tablet by mouth once a day   ACETAMINOPHEN - 500 mg Tablet - 2 Tablet(s) by mouth TID   ASPIRIN - 81 mg Tablet, Chewable by mouth once a dayDischarge Disposition: HomeDischarge Diagnosis:  Primary diagnosis Hypotension Secondary diagnosis Alzheimer's and vascular dementiaDischarge Condition:  Mental Status Confused - always. Level of Consciousness Alert and interactive. Activity Status Ambulatory - Independent.",
+          "qas": [
+            {
+              "answers": [
+                "Hypotension"
+              ],
+              "id": 1,
+              "question": "(Text Summarization) What is the patient's primary diagnosis?"
+            },
+            {
+              "answers": [
+                "He was found by his PCP to be hypotensive with SBP 66 and sent to the ED.",
+                "labs notable for creatinine of 1.8, lipase of 146, HCT 33 (baseline 36). EKG - nsr, <1mm STE V1-v3: no sig change prior. Will add on troponin. CXR was unremarkable. U/A not done.",
+                "Primary diagnosis Hypotension"
+              ],
+              "id": 2,
+              "question": "(Content extraction) Which sentences in the note describe the diagnosis?"
+            },
+            {
+              "answers": [
+                "3VD",
+                "DM",
+                "Alzheimer's"
+              ],
+              "id": 3,
+              "question": "(Text Summarization) What are the comorbidities of the patient?"
+            },
+            {
+              "answers": [
+                "3VD, DM, Alzheimer's",
+                "Secondary diagnosis Alzheimer's and vascular dementia"
+              ],
+              "id": 4,
+              "question": "(Content extraction) Which sentences in the note describe the comorbidities?"
+            },
+            {
+              "answers": [
+                "ATENOLOL - 50 mg Tablet - 1 Tablet(s) by mouth once a day",
+                "CITALOPRAM - 20 mg Tablet - 1 Tablet(s) by mouth each morning",
+                "CLOPIDOGREL [PLAVIX] - 75 mg Tablet - 1 Tablet(s) by mouth daily",
+                "GALANTAMINE - 16 mg Cap,24 hr 1 Cap(s) by qAM",
+                "GLIPIZIDE - 10 mg Tablet - 1 (One) Tablet(s) by mouth twice a day",
+                "ISOSORBIDE MONONITRATE - 30 mg Tablet SR by mouth daily",
+                "LISINOPRIL - 40 mg Tablet by mouth daily",
+                "MEMANTINE [NAMENDA] 10 mg Tablet by mouth twice daily",
+                "METFORMIN 1,000 mg Tablet by mouth twice a day (take with meals)",
+                "NITROGLYCERIN - 0.4 mg Tablet SL every 5 minutes up to 3 times",
+                "PIOGLITAZONE [ACTOS] 45 mg Tablet by mouth once a day",
+                "QUETIAPINE [SEROQUEL] - 25 mg Tablet by mouth BID",
+                "RANITIDINE HCL 150 mg Tablet by mouth once a day",
+                "SIMVASTATIN - 40 mg Tablet by mouth once a day",
+                "ACETAMINOPHEN - 500 mg Tablet - 2 Tablet(s) by mouth TID",
+                "ASPIRIN - 81 mg Tablet, Chewable by mouth once a day"
+              ],
+              "id": 5,
+              "question": "(Named Entity Recognition) List all the medications mentioned in the discharge summary?"
+            },
+            {
+              "answers": [
+                "Medications on Admission: ATENOLOL - 50 mg Tablet - 1 Tablet(s) by mouth once a day   CITALOPRAM - 20 mg Tablet - 1 Tablet(s) by mouth each morning   CLOPIDOGREL [PLAVIX] - 75 mg Tablet - 1 Tablet(s) by mouth daily  GALANTAMINE - 16 mg Cap,24 hr 1 Cap(s) by qAM   GLIPIZIDE - 10 mg Tablet - 1 (One) Tablet(s) by mouth twice a  day   ISOSORBIDE MONONITRATE - 30 mg Tablet SR by mouth daily   LISINOPRIL - 40 mg Tablet by mouth daily   MEMANTINE [NAMENDA] 10 mg Tablet by mouth twice daily   METFORMIN 1,000 mg Tablet by mouth twice a day (take with meals)    NITROGLYCERIN - 0.4 mg Tablet SL every 5 minutes up to 3 times   PIOGLITAZONE [ACTOS] 45 mg Tablet by mouth once a day   QUETIAPINE [SEROQUEL] - 25 mg Tablet by mouth BID   RANITIDINE HCL 150 mg Tablet by mouth once a day   SIMVASTATIN - 40 mg Tablet by mouth once a day   ACETAMINOPHEN - 500 mg Tablet - 2 Tablet(s) by mouth TID   ASPIRIN - 81 mg Tablet, Chewable by mouth once a day",
+                "Medications on Admission:"
+              ],
+              "id": 6,
+              "question": "(Content extraction) Which sentences in the note describe the medications?"
+            },
+            {
+              "answers": [
+                "creatinine",
+                "lipase",
+                "HCT",
+                "EKG",
+                "troponin",
+                "CXR",
+                "U/A"
+              ],
+              "id": 7,
+              "question": "(Named Entity Recognition) List all the labs mentioned in the discharge summary?"
+            },
+            {
+              "answers": [
+                "Labs notable for creatinine of 1.8, lipase of 146, HCT 33 (baseline 36). EKG - nsr, <1mm STE V1-v3: no sig change prior. Will add on troponin. CXR was unremarkable. U/A not done."
+              ],
+              "id": 8,
+              "question": "(Content extraction) Which sentences in the note describe the labs?"
+            },
+            {
+              "answers": [
+                "Patient with hypotension and comorbidities of 3VD, DM, and Alzheimer's presented with fatigue, malaise, dizziness, somnolence, and decreased PO intake. He was found by his PCP to be hypotensive with SBP 66 and sent to the ED. In the ED, he was given 2L IVF and his SBP has remained >110. Upon admission, he was alert and eating a sandwich. At discharge, he was oriented to self, knew his wife's name and number, but not oriented to date, year, place. ",
+                "history treatment plan for the patient"
+              ],
+              "id": 9,
+              "question": "(Text Summarization) Provide a brief summary of the history treatment plan for the patient?"
+            },
+            {
+              "answers": [
+                "Patient with hypotension and comorbidities of 3VD, DM, and Alzheimer's presented with fatigue, malaise, dizziness, somnolence, and decreased PO intake. He was found by his PCP to be hypotensive with SBP 66 and sent to the ED. In the ED, he was given 2L IVF and his SBP has remained >110. Upon admission, he was alert and eating a sandwich. At discharge, he was oriented to self, knew his wife's name and number, but not oriented to date, year, place. "
+              ],
+              "id": 10,
+              "question": "(Content extraction) Which sentences in the note describe the history treatment plan for the patient?"
+            },
+            {
+              "question": "(Text Summarization) Provide a brief summary of the future treatment plan for the patient?",
+              "id": 11,
+              "answers": [
+                "The note does not provide a clear and concise summary of the future treatment plan for the patient."
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the future treatment plan for the patient?",
+              "id": 12,
+              "answers": [
+                "There are no sentences in the note that describe the future treatment plan for the patient."
+              ]
+            },
+            {
+              "question": "(Content extraction) What medications are the patient currently on?",
+              "id": 13,
+              "answers": [
+                "The patient is currently on the following medications: ATENOLOL, CITALOPRAM, CLOPIDOGREL [PLAVIX], GALANTAMINE, GLIPIZIDE, ISOSORBIDE MONONITRATE, LISINOPRIL, MEMANTINE [NAMENDA], METFORMIN, NITROGLYCERIN, PIOGLITAZONE [ACTOS], QUETIAPINE [SEROQUEL], RANITIDINE HCL, SIMVASTATIN, ACETAMINOPHEN, and ASPIRIN."
+              ]
+            },
+            {
+              "question": "(Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history.",
+              "id": 14,
+              "answers": [
+                "The note lists the following diagnoses: primary diagnosis of hypotension and secondary diagnosis of Alzheimer's and vascular dementia. It is not specified whether these are from recent onsite visits or past medical history."
+              ]
+            },
+            {
+              "question": "(Text Classification) Can you classify the patient's discharge diagnosis into primary and secondary?",
+              "id": 15,
+              "answers": [
+                "The patient's discharge diagnosis can be classified as follows: primary diagnosis of hypotension and secondary diagnosis of Alzheimer's and vascular dementia."
+              ]
+            },
+            {
+              "question": "(Named Entity Recognition) Can you identify the medications prescribed to the patient during admission?",
+              "id": 16,
+              "answers": [
+                "The medications prescribed to the patient during admission are: ATENOLOL, CITALOPRAM, CLOPIDOGREL [PLAVIX], GALANTAMINE, GLIPIZIDE, ISOSORBIDE MONONITRATE, LISINOPRIL, MEMANTINE [NAMENDA], METFORMIN, NITROGLYCERIN, PIOGLITAZONE [ACTOS], QUETIAPINE [SEROQUEL], RANITIDINE HCL, SIMVASTATIN, ACETAMINOPHEN, and ASPIRIN."
+              ]
+            },
+            {
+              "question": "(Text Summarization) Can you provide a brief summary of the patient's history of present illness?",
+              "id": 17,
+              "answers": [
+                "The patient with a history of 3VD, DM, and Alzheimer's presented with two days of fatigue, malaise, dizziness, somnolence, and decreased PO intake. He was found to be hypotensive with SBP 66 and sent to the ED. In the ED, he was clinically dry on exam and labs were notable for creatinine of 1.8, lipase of 146, and HCT 33 (baseline 36). He was given 2L IVF and his SBP has remained >110. On the floor, the patient was pleasantly demented and eating dinner. He reported that he felt completely better after the IVF and denied any CP, SOB, nausea, vomiting."
+              ]
+            },
+            {
+              "question": "(Keyword Extraction) What are the patient's major medical conditions?",
+              "id": 18,
+              "answers": [
+                "The patient's major medical conditions are 3VD, DM, Alzheimer's, hypotension, and vascular dementia."
+              ]
+            },
+            {
+              "question": "(Relation Extraction) Is there any relationship between the patient's reported symptoms and their medical history?",
+              "id": 19,
+              "answers": [
+                "There is no clear relationship between the patient's reported symptoms and their medical history."
+              ]
+            },
+            {
+              "question": "(Temporal Information Extraction) Can you identify when the patient arrived at the clinic and when they were discharged?",
+              "id": 20,
+              "answers": [
+                "The note does not provide specific information on when the patient arrived at the clinic and when they were discharged."
+              ]
+            },
+            {
+              "question": "(Question Answering) What was the patient's initial blood pressure reading in the ED?",
+              "id": 21,
+              "answers": [
+                "78/53"
+              ]
+            },
+            {
+              "question": "(Clinical Concept Normalization) Can you normalize the medication names to their generic form?",
+              "id": 22,
+              "answers": [
+                "ATENOLOL - atenolol",
+                "CITALOPRAM - citalopram",
+                "CLOPIDOGREL [PLAVIX] - clopidogrel",
+                "GALANTAMINE - galantamine",
+                "GLIPIZIDE - glipizide",
+                "ISOSORBIDE MONONITRATE - isosorbide mononitrate",
+                "LISINOPRIL - lisinopril",
+                "MEMANTINE [NAMENDA] - memantine",
+                "METFORMIN - metformin",
+                "NITROGLYCERIN - nitroglycerin",
+                "PIOGLITAZONE [ACTOS] - pioglitazone",
+                "QUETIAPINE [SEROQUEL] - quetiapine",
+                "RANITIDINE HCL - ranitidine",
+                "SIMVASTATIN - simvastatin",
+                "ACETAMINOPHEN - acetaminophen",
+                "ASPIRIN - aspirin"
+              ]
+            },
+            {
+              "question": "(Named Entity Recognition) Can you identify any allergies or adverse drug reactions reported by the patient?",
+              "id": 23,
+              "answers": [
+                "No Known Allergies / Adverse Drug Reactions"
+              ]
+            },
+            {
+              "question": "(Paraphrasing) Can you rephrase the patient's chief complaint in simpler language?",
+              "id": 24,
+              "answers": [
+                "The patient was feeling tired and weak for two days, and also experienced dizziness, sleepiness, and decreased appetite."
+              ]
+            },
+            {
+              "question": "(Abbreviation expansion) Can you expand the abbreviation 'SBP' used in the summary?",
+              "id": 25,
+              "answers": [
+                "'SBP' stands for 'systolic blood pressure'."
+              ]
+            },
+            {
+              "question": "(Content extraction) Can you extract the patient's vital signs on admission to the ED?",
+              "id": 26,
+              "answers": [
+                "Temperature: 97.4 F",
+                "Heart Rate: 70 bpm",
+                "Blood Pressure: 78/53 mmHg",
+                "Respiratory Rate: 16 bpm",
+                "Oxygen Saturation: 98% on room air"
+              ]
+            },
+            {
+              "question": "(Relation Extraction) Is there any relationship between the patient's reported symptoms and the medications they were taking?",
+              "id": 27,
+              "answers": [
+                "There is no information provided in the discharge summary that indicates a relationship between the patient's reported symptoms and the medications they were taking."
+              ]
+            },
+            {
+              "question": "(Question Answering) Did the patient experience any chest pain or shortness of breath during their hospitalization?",
+              "id": 28,
+              "answers": [
+                "There is no information provided in the discharge summary that indicates the patient experienced chest pain or shortness of breath during their hospitalization."
+              ]
+            },
+            {
+              "question": "(Natural Language Generation) Can you generate a brief summary of the patient's hospitalization for a non-medical person?",
+              "id": 29,
+              "answers": [
+                "The patient was admitted to the hospital due to feeling tired and weak for two days, along with experiencing dizziness, sleepiness, and decreased appetite. Upon arrival to the hospital, the patient was found to have low blood pressure, but responded well to intravenous fluids. The patient was diagnosed with hypotension and Alzheimer's and vascular dementia, and was discharged home in stable condition."
+              ]
+            },
+            {
+              "question": "(Feature extraction) Can you extract any notable findings from the patient's physical exam upon admission?",
+              "id": 30,
+              "answers": [
+                "The patient had well demarcated round hyperpigmented lesions on their palms, but no other rash was noted. The patient was alert and eating upon admission, but was only oriented to self and able to answer questions appropriately, although promptly forgot the conversation."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "10172708-DS-8",
+      "paragraphs": [
+        {
+          "context": "Sex: MService: MEDICINEAttending: ___.Past Medical History: 1. ESRD on HD  2. CAD - EKG with q waves inferior leads   3. CHF unknown EF   4. H/o Atrial flutter   6. HTN   7. COPD - PFT??   8. Benign protatic hypertropy 9. Large scrotal/R inguinal herniaSocial History: ___Family History: Father died stroke at age ___.   Brother died stroke at same age.Physical Exam:  VS 97.8 144/81  60 20  95%RA GEN pleasant, comfortable, NAD HEENT PEERLA, no JVP, no LAD RESP CTAB/L, no w/r/r CV regular heart sounds, S1 and S2 wnl, II/VI holosystolic  at the  apex. ABD nd, +b/s, soft, nt, no masses or hepatosplenomegaly EXT no edema, no clubbing SKIN no rashes/no jaundice/no splinters Rectal Guiac negative in the ed, no saddle anesthesia, patient  with b/l scrotal enlargement that is unchanged due to R sided  inguinal hernia Neuro ___ upper/lower extremities, distal/proximal, however  patient with guarding of straight leg due to worsening of the  pain in the R lower back, + 1 DTRs b/l, intact sensation b/lPertinent Results: RADIOLOGY  Final Report  L-SPINE (AP & LAT)  ___ 2:37 ___  L-SPINE (AP & LAT) Reason r/o fx UNDERLYING MEDICAL CONDITION ___ year old man with severe mid low back pain REASON FOR THIS EXAMINATION r/o fx HISTORY ___ male with severe mid low back pain. Please  evaluate for fracture. COMPARISON There is none available. TWO VIEWS OF THE LUMBAR SPINE There is mild diffuse osteopenia,  and moderate degenerative change, with a chronic-appearing  scalloping of the L1 vertebral body. However, there is no  evidence of acute compression fracture. There is also moderate  degenerative change of the hips, incompletely imaged. Note is  made of extensive calcifications of the abdominal aorta and  common iliac arteries. IMPRESSION No evidence of acute fracture.Brief Hospital Course: Back pain - appears to be musculoskeletal in nature, no red  flags such as fecal incontinence, urinary retention,  neurological exam findings. Xray negative for fracture.  Treated with hot packs and prn percocet.  ___ eval independent  ambulation.  Noted to have antalgic gait.  Discharged home with  home services including rn, sw, ___. . ESRD - continued HD . CAD/HTN - continued BB, ASA . h/o atrial flutter - in NSR.Medications on Admission: Toprol XL 50 mg Daily ASA 81 mg PO Daily Omeprazole 20 mg PO Daily Phoslo 667 mg PO TID Docusate Renagel 1 tab dailyDischarge Medications: 1. Metoprolol Succinate 50 mg Tablet Sustained Release 24 hr Sig One (1) Tablet Sustained Release 24 hr PO DAILY (Daily).   2. Aspirin 81 mg Tablet, Delayed Release (E.C.) Sig: One (1)  Tablet, Delayed Release (E.C.) PO DAILY (Daily).   3. Omeprazole 20 mg Capsule, Delayed Release(E.C.) Sig: One (1)  Capsule, Delayed Release(E.C.) PO once a day.   4. Calcium Acetate 667 mg Capsule Sig: One (1) Capsule PO TID  W/MEALS (3 TIMES A DAY WITH MEALS).   5. Sevelamer HCl 800 mg Tablet Sig: One (1) Tablet PO BID (2  times a day).   6. Docusate Sodium 100 mg Capsule Sig: One (1) Capsule PO BID (2  times a day). Disp *60 Capsule(s)* Refills:*2* 7. Percocet ___ mg Tablet Sig: ___ Tablets PO every six (6)  hours as needed for pain. Disp *20 Tablet(s)* Refills:*0*Discharge Diagnosis: Lumbago (mechanical lower back pain attributed to degenerative  disease/arthritis of the lumbar spine). ESRD on HD CADDischarge Condition: Stable, independently ambulatory, Afebrile, VSS.Discharge Instructions: You were admitted for back pain and difficulty walking due to  pain.  No neurologic deficits were noted on examination.  Your  XRays of the back did not show a fracture, you have moderate  arthritis of the lumbar spine which is felt to be the source of  you back pain.  No changes were made to your home medications, we have only  added percocet as needed for pain, as well as recommending the  use of hot packs as needed to the area of pain. Return to the ___ Emergency Department if you develop numbness or weakness of the legs, or severe, intractable pain  that limits you from walking.",
+          "qas": [
+            {
+              "question": "(Text Summarization) What is the patient's primary diagnosis?",
+              "id": 1,
+              "answers": [
+                "The patient's primary diagnosis is lumbago (mechanical lower back pain attributed to degenerative disease/arthritis of the lumbar spine)."
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the diagnosis?",
+              "id": 2,
+              "answers": [
+                "Discharge Diagnosis: Lumbago (mechanical lower back pain attributed to degenerative disease/arthritis of the lumbar spine)."
+              ]
+            },
+            {
+              "question": "(Text Summarization) What are the comorbidities of the patient?",
+              "id": 3,
+              "answers": [
+                "The comorbidities of the patient are: ESRD on HD, CAD, CHF, h/o Atrial flutter, HTN, COPD, and benign protatic hypertropy, and large scrotal/R inguinal hernia."
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the comorbidities?",
+              "id": 4,
+              "answers": [
+                "Past Medical History: 1. ESRD on HD  2. CAD - EKG with q waves inferior leads   3. CHF unknown EF   4. H/o Atrial flutter   6. HTN   7. COPD - PFT??   8. Benign protatic hypertropy 9. Large scrotal/R inguinal hernia"
+              ]
+            },
+            {
+              "question": "(Named Entity Recognition) List all the medications mentioned in the discharge summary.",
+              "id": 5,
+              "answers": [
+                "Toprol XL 50 mg Daily ASA 81 mg PO Daily Omeprazole 20 mg PO Daily Phoslo 667 mg PO TID Docusate Renagel 1 tab daily Metoprolol Succinate 50 mg Tablet Sustained Release 24 hr Aspirin 81 mg Tablet, Delayed Release (E.C.) Omeprazole 20 mg Capsule, Delayed Release(E.C.) Calcium Acetate 667 mg Capsule Sevelamer HCl 800 mg Tablet Docusate Sodium 100 mg Capsule Percocet"
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the medications?",
+              "id": 6,
+              "answers": [
+                "Medications on Admission: Toprol XL 50 mg Daily ASA 81 mg PO Daily Omeprazole 20 mg PO Daily Phoslo 667 mg PO TID Docusate Renagel 1 tab daily\nDischarge Medications: 1. Metoprolol Succinate 50 mg Tablet Sustained Release 24 hr Sig One (1) Tablet Sustained Release 24 hr PO DAILY (Daily).   2. Aspirin 81 mg Tablet, Delayed Release (E.C.) Sig: One (1)  Tablet, Delayed Release (E.C.) PO DAILY (Daily).   3. Omeprazole 20 mg Capsule, Delayed Release(E.C.) Sig: One (1)  Capsule, Delayed Release(E.C.) PO once a day.   4. Calcium Acetate 667 mg Capsule Sig: One (1) Capsule PO TID  W/MEALS (3 TIMES A DAY WITH MEALS).   5. Sevelamer HCl 800 mg Tablet Sig: One (1) Tablet PO BID (2  times a day).   6. Docusate Sodium 100 mg Capsule Sig: One (1) Capsule PO BID (2  times a day). Disp *60 Capsule(s)* Refills:*2* 7. Percocet ___ mg Tablet Sig: ___ Tablets PO every six (6)  hours as needed for pain. Disp *20 Tablet(s)* Refills:*0*"
+              ]
+            },
+            {
+              "question": "(Named Entity Recognition) List all the labs mentioned in the discharge summary.",
+              "id": 7,
+              "answers": [
+                "L-SPINE (AP & LAT)"
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the labs?",
+              "id": 8,
+              "answers": [
+                "TWO VIEWS OF THE LUMBAR SPINE There is mild diffuse osteopenia,  and moderate degenerative change, with a chronic-appearing  scalloping of the L1 vertebral body. However, there is no  evidence of acute compression fracture."
+              ]
+            },
+            {
+              "question": "(Text Summarization) Provide a brief summary of the history treatment plan for the patient?",
+              "id": 9,
+              "answers": [
+                "The patient was treated with hot packs and prn percocet for back pain. No changes were made to his home medications, and he was discharged home with home services including rn, sw. The patient was noted to have antalgic gait but was stable, independently ambulatory, afebrile, and VSS."
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the history treatment plan for the patient?",
+              "id": 10,
+              "answers": [
+                "Brief Hospital Course: Back pain - appears to be musculoskeletal in nature, no red  flags such as fecal incontinence, urinary retention,  neurological exam findings. Xray negative for fracture.  Treated with hot packs and prn percocet.  ___ eval independent  ambulation.  Noted to have antalgic gait.  Discharged home with  home services including rn, sw, ___."
+              ]
+            },
+            {
+              "answers": [
+                "The future treatment plan for the patient includes continuing home medications, adding Percocet as needed for pain, and using hot packs as needed to the area of pain. The patient is also advised to return to the emergency department if they develop numbness or weakness of the legs, or severe, intractable pain that limits walking."
+              ],
+              "id": "11",
+              "question": "(Text Summarization) Provide a brief summary of the future treatment plan for the patient?"
+            },
+            {
+              "answers": [
+                "No changes were made to your home medications, we have only  added Percocet as needed for pain, as well as recommending the use of hot packs as needed to the area of pain."
+              ],
+              "id": "12",
+              "question": "(Content extraction) Which sentences in the note describe the future treatment plan for the patient?"
+            },
+            {
+              "answers": [
+                "Toprol XL, ASA, Omeprazole, Phoslo, Renagel, Sevelamer HCl, Docusate, Percocet"
+              ],
+              "id": "13",
+              "question": "(Content extraction) What medications are the patient currently on?"
+            },
+            {
+              "answers": [
+                "ESRD on HD (recent), CAD (past), CHF (past), Atrial flutter (past), HTN (past), COPD (past), Benign protatic hypertropy (past)"
+              ],
+              "id": "14",
+              "question": "(Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history."
+            },
+            {
+              "answers": [
+                "Past medical history"
+              ],
+              "id": "15",
+              "question": "(Text Classification) Can you classify the patient's medical history based on their past conditions?"
+            },
+            {
+              "answers": [
+                "The patient was admitted for back pain and difficulty walking due to pain. No neurologic deficits were noted on examination. X-rays of the back did not show a fracture. The patient was treated with hot packs and Percocet as needed for pain. The patient was noted to have antalgic gait. Discharged home with home services including RN, SW."
+              ],
+              "id": "16",
+              "question": "(Natural Language Generation) Please generate a summary of the patient's hospital course."
+            },
+            {
+              "answers": [
+                "The patient's discharge diagnosis is lumbago, which is mechanical lower back pain attributed to degenerative disease/arthritis of the lumbar spine."
+              ],
+              "id": "17",
+              "question": "(Text Summarization) Can you provide a brief summary of the patient's discharge diagnosis?"
+            },
+            {
+              "answers": [
+                "ESRD, HD, CAD, EKG, CHF, Atrial flutter, HTN, COPD, Benign protatic hypertropy, scrotal hernia, inguinal hernia, stroke"
+              ],
+              "id": "18",
+              "question": "(Named Entity Recognition) Identify all the medical conditions mentioned in the patient's history."
+            },
+            {
+              "answers": [
+                "ESRD, HD, CAD, CHF, Atrial flutter, HTN, COPD, Benign protatic hypertropy, stroke"
+              ],
+              "id": "19",
+              "question": "(Keyword Extraction) What are the keywords related to the patient's past medical history?"
+            },
+            {
+              "answers": [
+                "CAD: Coronary artery disease"
+              ],
+              "id": "20",
+              "question": "(Abbreviation Expansion) Expand the abbreviation \"CAD\" in the patient's medical history."
+            },
+            {
+              "answers": [
+                "The patient's ESRD is being treated with HD (hemodialysis) which was continued upon discharge."
+              ],
+              "id": "21",
+              "question": "(Relation Extraction) What is the relationship between the patient's ESRD and their current treatment?"
+            },
+            {
+              "answers": [
+                "The duration of the patient's hospital stay is not mentioned in the summary."
+              ],
+              "id": "22",
+              "question": "(Temporal Information Extraction) Can you extract the duration of the patient's hospital stay from the summary?"
+            },
+            {
+              "answers": [
+                "Metoprolol Succinate 50 mg Tablet Sustained Release 24 hr, Aspirin 81 mg Tablet, Delayed Release (E.C.), Omeprazole 20 mg Capsule, Delayed Release(E.C.), Calcium Acetate 667 mg Capsule, Sevelamer HCl 800 mg Tablet, and Docusate Sodium 100 mg Capsule."
+              ],
+              "id": "23",
+              "question": "(Content Extraction) Extract all the medications prescribed to the patient upon discharge?"
+            },
+            {
+              "answers": [
+                "You were admitted to the hospital because of back pain and difficulty walking due to pain. Your X-rays of the back did not show a fracture. You have moderate arthritis of the lumbar spine which is causing your back pain. Your medications have not changed, but we have added percocet as needed for pain, as well as recommending the use of hot packs as needed to the area of pain. Return to the emergency department if you develop numbness or weakness of the legs, or severe, intractable pain that limits you from walking."
+              ],
+              "id": "24",
+              "question": "(Paraphrasing) Can you rephrase the patient's discharge instructions in simpler language?"
+            },
+            {
+              "answers": [
+                "VS: 97.8, BP: 144/81, HR: 60, RR: 20, and SpO2: 95%RA. General: pleasant, comfortable, NAD. HEENT: PEERLA, no JVP, no LAD. Respiratory: CTAB/L, no w/r/r. Cardiovascular: regular heart sounds, S1 and S2 wnl, II/VI holosystolic at the apex. Abdomen: nd, +b/s, soft, nt, no masses or hepatosplenomegaly. Extremities: no edema, no clubbing. Skin: no rashes, no jaundice, no splinters. Neuro: upper/lower extremities, distal/proximal, however patient is guarding straight leg due to worsening pain in the R lower back, +1 DTRs b/l, intact sensation b/l."
+              ],
+              "id": "25",
+              "question": "(Feature Extraction) What are the key features of the patient's physical exam?"
+            },
+            {
+              "answers": [
+                "No neurological deficits were noted upon examination."
+              ],
+              "id": "26",
+              "question": "(Question Answering) Did the patient have any neurological deficits upon examination?"
+            },
+            {
+              "answers": [
+                "COPD (Chronic obstructive pulmonary disease) was mentioned in the patient's medical history, but asthma was not mentioned."
+              ],
+              "id": "27",
+              "question": "(Multiple-Choice Question) Which of the following medical conditions was NOT mentioned in the patient's medical history? A) ESRD B) COPD C) Asthma D) HTN"
+            },
+            {
+              "answers": [
+                "No, the X-ray result was negative for a fracture."
+              ],
+              "id": "28",
+              "question": "(Yes/No Question) Was the patient's X-ray result positive for a fracture?"
+            },
+            {
+              "answers": [
+                "Further diagnostic tests that could be done to investigate the patient's back pain include MRI, CT scan, or bone scan."
+              ],
+              "id": "29",
+              "question": "(Open-Ended Question) What further diagnostic tests could be done to investigate the patient's back pain?"
+            },
+            {
+              "answers": [
+                "Lumbago is a non-specific term used to describe lower back pain. A more specific clinical concept for the patient's diagnosis would be degenerative disc disease or spinal osteoarthritis."
+              ],
+              "id": "30",
+              "question": "(Clinical Concept Normalization) Can you normalize the patient's diagnosis 'lumbago' to a more specific clinical concept?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "10139387-DS-20",
+      "paragraphs": [
+        {
+          "context": "Sex: MAllergies: No Known Allergies / Adverse Drug ReactionsAttending: ___History of Present Illness: ___ yo male presented to ___ ___ with chest pain and SOB-  work up was negative per patient. He reports feeling exertional  chest tightness plus SOB on walking uphill near his house. It  only happened when he exercises and never at rest. He describes  pain as \"a squeeze\" and goes away on sitting down or resting.  Patient was in ___ with similar symptoms. It had escalated to  ___ times per day before patient when to ___. He is being  followed for HCM and LVH. He presented for diagnostic cardiac  cath and was found to have 3 V CAD - Csurg consulted for CABG evaluation.Family History: No Premature coronary artery disease Father MI ___ - age ___  Mother - CAD age ___Physical Exam:  Pulse 66 Resp:25  O2 sat: 97% RA B/P  Right Left: 133/63 Height 65 inches    Weight: 200# General Awake, alert in NAD Skin Dry [x] intact [x] HEENT PERRLA [x] EOMI [] Several missing teeth Neck Supple [x] Full ROM [] Chest Lungs clear bilaterally [x] Heart RRR [x] Irregular [] Murmur [] grade ______ Abdomen Soft [x] non-distended [x] non-tender [x] bowel sounds  + [x] Obese Extremities Warm [x], well-perfused [x]  Edema none Varicosities None [x] Neuro Grossly intact [] Pulses Femoral Right 2+   Left:2+ DP Right 2+   Left:2+ ___ Right 2+   Left:2+ Radial Right TR band   Left:2+  Carotid Bruit Right none    Left:nonePertinent Results:  ___ Echo report pending .  ___ 06:05AM BLOOD WBC-9.9 RBC-3.32* Hgb-9.7* Hct-30.7*  MCV-93 MCH-29.2 MCHC-31.6* RDW-14.8 RDWSD-50.2* Plt ___ ___ 03:06AM BLOOD WBC-9.8 RBC-3.57* Hgb-10.4* Hct-32.8*  MCV-92 MCH-29.1 MCHC-31.7* RDW-14.6 RDWSD-49.2* Plt ___ ___ 01:00PM BLOOD ___ PTT-30.3 ___ ___ 06:05AM BLOOD Glucose-98 UreaN-28* Creat-1.0 Na-139  K-4.7 Cl-101 ___ 03:10AM BLOOD Glucose-156* UreaN-18 Creat-1.1 Na-137  K-4.1 Cl-102 HCO3-26 AnGap-13 ___ 03:06AM BLOOD Glucose-108* UreaN-15 Creat-1.2 Na-139  K-4.2 Cl-105 HCO3-23 AnGap-15 ___ 05:16AM BLOOD Mg-2.2Brief Hospital Course: Mr. ___ was a same day admit and on ___ he was brought to  the operating room on ___ where he underwent a coronary  artery bypass graft x 5. Please see operative note for surgical  details. Following surgery he was transferred to the CVICU for  invasive monitoring in stable condition. He was initially  hypoxic, requiring high peep. He weaned from sedation, awoke  neurologically intact and extubated early POD2. He was started  on Lasix and Lopressor. Nitro gtt was discontinued. He  transferred to the floor on POD1. Pacing wires and chest tubes  were removed in timely fashion. Patient has a history of  pre-diabetes and and required insulin therapy this admission. He  continued to progress and was seen by the physical therapy  service. He remained Hemodynamically stable, and was deemed safe  for discharge to home on POD 4.  All follow-up appointments  advised.Facility: ___Past medical history: Obesity  Fatty liver  GERD Colonic adenomas Small focus of follicular lymphoma found on intestine ___ Hypertension LVH  Hyperlipdemia Prediabetes Cardiomyopathy Chronic lower back pain Soinal stenosisDischarge Condition: Alert and oriented x3 non-focal  Ambulating with steady gait Incisional pain managed with Dilaudid Incisions Sternal - healing well, no erythema or drainage  Leg - healing well, no erythema or drainage Edema- trace",
+          "qas": [
+            {
+              "question": "(Text Summarization) What is the patient's primary diagnosis?",
+              "id": 1,
+              "answers": [
+                "The patient's primary diagnosis is 3 V CAD (coronary artery disease) and he underwent a coronary artery bypass graft x 5."
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the diagnosis?",
+              "id": 2,
+              "answers": [
+                "He reports feeling exertional chest tightness plus SOB on walking uphill near his house. He describes pain as \"a squeeze\" and goes away on sitting down or resting. Patient was in ___ with similar symptoms. It had escalated to ___ times per day before patient when to ___. He is being followed for HCM and LVH. He presented for diagnostic cardiac cath and was found to have 3 V CAD - Csurg consulted for CABG evaluation. Following surgery he was transferred to the CVICU for invasive monitoring in stable condition."
+              ]
+            },
+            {
+              "question": "(Text Summarization) What are the comorbidities of the patient?",
+              "id": 3,
+              "answers": [
+                "The comorbidities of the patient are obesity, fatty liver, GERD, colonic adenomas, small focus of follicular lymphoma found on intestine, hypertension, LVH, hyperlipidemia, prediabetes, cardiomyopathy, chronic lower back pain, and spinal stenosis."
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the comorbidities?",
+              "id": 4,
+              "answers": [
+                "Past medical history: Obesity Fatty liver GERD Colonic adenomas Small focus of follicular lymphoma found on intestine ___ Hypertension LVH Hyperlipdemia Prediabetes Cardiomyopathy Chronic lower back pain Soinal stenosis"
+              ]
+            },
+            {
+              "question": "(Named Entity Recognition) List all the medications mentioned in the discharge summary.",
+              "id": 5,
+              "answers": [
+                "Lasix, Lopressor, Dilaudid, insulin"
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the medications?",
+              "id": 6,
+              "answers": [
+                "Following surgery he was transferred to the CVICU for invasive monitoring in stable condition. He was initially hypoxic, requiring high peep. He weaned from sedation, awoke neurologically intact and extubated early POD2. He was started on Lasix and Lopressor. Nitro gtt was discontinued. He transferred to the floor on POD1. Pacing wires and chest tubes were removed in timely fashion. Patient has a history of pre-diabetes and and required insulin therapy this admission."
+              ]
+            },
+            {
+              "question": "(Named Entity Recognition) List all the labs mentioned in the discharge summary.",
+              "id": 7,
+              "answers": [
+                "WBC, RBC, Hgb, Hct, MCV, MCH, MCHC, RDW, RDWSD, Plt, PTT, Glucose, UreaN, Creat, Na, K, Cl, HCO3, AnGap, Mg"
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the labs?",
+              "id": 8,
+              "answers": [
+                "06:05AM BLOOD WBC-9.9 RBC-3.32* Hgb-9.7* Hct-30.7* MCV-93 MCH-29.2 MCHC-31.6* RDW-14.8 RDWSD-50.2* Plt ___ ___ 03:06AM BLOOD WBC-9.8 RBC-3.57* Hgb-10.4* Hct-32.8* MCV-92 MCH-29.1 MCHC-31.7* RDW-14.6 RDWSD-49.2* Plt ___ ___ 01:00PM BLOOD ___ PTT-30.3 ___ ___ 06:05AM BLOOD Glucose-98 UreaN-28* Creat-1.0 Na-139 K-4.7 Cl-101 ___ 03:10AM BLOOD Glucose-156* UreaN-18 Creat-1.1 Na-137 K-4.1 Cl-102 HCO3-26 AnGap-13 ___ 03:06AM BLOOD Glucose-108* UreaN-15 Creat-1.2 Na-139 K-4.2 Cl-105 HCO3-23 AnGap-15 ___ 05:16AM BLOOD Mg-2.2"
+              ]
+            },
+            {
+              "question": "(Text Summarization) Provide a brief summary of the history treatment plan for the patient?",
+              "id": 9,
+              "answers": [
+                "The patient underwent a coronary artery bypass graft x 5 for 3 V CAD and was transferred to the CVICU for invasive monitoring in stable condition. He was started on Lasix and Lopressor. Nitro gtt was discontinued. He transferred to the floor on POD1. Pacing wires and chest tubes were removed in timely fashion. Patient has a history of pre-diabetes and and required insulin therapy this admission. He remained Hemodynamically stable, and was deemed safe for discharge to home on POD 4. All follow-up appointments advised."
+              ]
+            },
+            {
+              "question": "(Content extraction) Which sentences in the note describe the history treatment plan for the patient?",
+              "id": 10,
+              "answers": [
+                "Mr. ___ was a same day admit and on ___ he was brought to the operating room on ___ where he underwent a coronary artery bypass graft x 5. Please see operative note for surgical details. Following surgery he was transferred to the CVICU for invasive monitoring in stable condition. He was initially hypoxic, requiring high peep. He weaned from sedation, awoke neurologically intact and extubated early POD2. He was started on Lasix and Lopressor. Nitro gtt was discontinued. He transferred to the floor on POD1. Pacing wires and chest tubes were removed in timely fashion. Patient has a history of pre-diabetes and and required insulin therapy this admission. He continued to progress and was seen by the physical therapy service. He remained Hemodynamically stable, and was deemed safe for discharge to home on POD 4. All follow-up appointments advised."
+              ]
+            },
+            {
+              "answers": [
+                "The future treatment plan for the patient includes follow-up appointments and continued management of his pre-existing medical conditions such as hypertension, hyperlipidemia, obesity, cardiomyopathy, and chronic lower back pain. The patient was started on Lasix and Lopressor and required insulin therapy during his admission. He is also advised to continue taking his medications for GERD and colonic adenomas. "
+              ],
+              "id": "11",
+              "question": "(Text Summarization) Provide a brief summary of the future treatment plan for the patient?"
+            },
+            {
+              "answers": [
+                "Following surgery, he was transferred to the CVICU for invasive monitoring in stable condition. He was initially hypoxic, requiring high peep. He weaned from sedation, awoke neurologically intact and extubated early POD2. He was started on Lasix and Lopressor. Nitro gtt was discontinued. He transferred to the floor on POD1. Pacing wires and chest tubes were removed in timely fashion. Patient has a history of pre-diabetes and and required insulin therapy this admission. He continued to progress and was seen by the physical therapy service. He remained Hemodynamically stable, and was deemed safe for discharge to home on POD 4.",
+                "Patient has a history of pre-diabetes and and required insulin therapy this admission."
+              ],
+              "id": "12",
+              "question": "(Content extraction) Which sentences in the note describe the future treatment plan for the patient?"
+            },
+            {
+              "answers": [
+                "Lasix, Lopressor, insulin therapy",
+                "Lasix",
+                "Lopressor",
+                "insulin therapy"
+              ],
+              "id": "13",
+              "question": "(Content extraction) What medications are the patient currently on?"
+            },
+            {
+              "answers": [
+                {
+                  "diagnosis": "obesity",
+                  "status": "Past Medical History"
+                },
+                {
+                  "diagnosis": "fatty liver",
+                  "status": "Past Medical History"
+                },
+                {
+                  "diagnosis": "GERD",
+                  "status": "Past Medical History"
+                },
+                {
+                  "diagnosis": "colonic adenomas",
+                  "status": "Past Medical History"
+                },
+                {
+                  "diagnosis": "small focus of follicular lymphoma found on intestine",
+                  "status": "Past Medical History"
+                },
+                {
+                  "diagnosis": "hypertension",
+                  "status": "Past Medical History"
+                },
+                {
+                  "diagnosis": "LVH",
+                  "status": "Past Medical History"
+                },
+                {
+                  "diagnosis": "hyperlipdemia",
+                  "status": "Past Medical History"
+                },
+                {
+                  "diagnosis": "Prediabetes",
+                  "status": "Past Medical History"
+                },
+                {
+                  "diagnosis": "cardiomyopathy",
+                  "status": "Present Illness"
+                },
+                {
+                  "diagnosis": "chronic lower back pain",
+                  "status": "Present Illness"
+                },
+                {
+                  "diagnosis": "Soinal stenosis",
+                  "status": "Past Medical History"
+                }
+              ],
+              "id": "14",
+              "question": "(Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history."
+            },
+            {
+              "answers": [
+                "cardiomyopathy"
+              ],
+              "id": "15",
+              "question": "(Text Classification) Can you classify the patient's primary diagnosis?"
+            },
+            {
+              "answers": [
+                "Lasix",
+                "Lopressor",
+                "insulin therapy"
+              ],
+              "id": "16",
+              "question": "(Named Entity Recognition) Identify all the medications prescribed to the patient during admission."
+            },
+            {
+              "answers": [
+                "POD1"
+              ],
+              "id": "17",
+              "question": "(Temporal Information Extraction) When was the patient transferred from CVICU to the floor?"
+            },
+            {
+              "answers": [
+                "There is no information provided in the note about the relationship between the patient's fatty liver and hyperlipidemia."
+              ],
+              "id": "18",
+              "question": "(Relation Extraction) What is the relationship between the patient's fatty liver and hyperlipidemia?"
+            },
+            {
+              "answers": [
+                "Mr. ___ was admitted for chest pain and SOB. He was diagnosed with 3 V CAD and underwent coronary artery bypass graft x 5. He had a history of pre-diabetes and required insulin therapy during admission. Patient was started on Lasix and Lopressor. Nitro gtt was discontinued. Following surgery, he was transferred to the CVICU for invasive monitoring in stable condition. He transferred to the floor on POD1 and was discharged on POD 4."
+              ],
+              "id": "19",
+              "question": "(Text Summarization) Can you summarize the patient's hospital course in a few sentences?"
+            },
+            {
+              "answers": [
+                "chest pain",
+                "SOB"
+              ],
+              "id": "20",
+              "question": "(Keyword Extraction) What are the main symptoms that led the patient to seek medical attention?"
+            },
+            {
+              "answers": [
+                "Left Ventricular Hypertrophy"
+              ],
+              "id": "21",
+              "question": "(Clinical Concept Normalization) Normalize the patient's diagnosis of LVH to its full form."
+            },
+            {
+              "answers": [
+                "Mr. ___ is a ___ yo male with a history of HCM and LVH who presented with chest pain and SOB. He underwent a coronary artery bypass graft x 5 and was transferred to the CVICU for invasive monitoring in stable condition. He was started on Lasix and Lopressor and transferred to the floor on POD1. He remained hemodynamically stable and was discharged home on POD4. Follow-up appointments were advised.",
+                "The patient is a male with a history of HCM and LVH who presented with exertional chest pain and SOB. He underwent a coronary artery bypass graft x 5 and remained hemodynamically stable throughout his hospital stay. He was started on Lasix and Lopressor and transferred to the floor on POD1. He was discharged home on POD4 with follow-up appointments advised.",
+                "The patient is a male with a history of HCM and LVH who presented with chest pain and SOB. He underwent a coronary artery bypass graft x 5 and was transferred to the CVICU for invasive monitoring in stable condition. He was started on Lasix and Lopressor and transferred to the floor on POD1. He remained hemodynamically stable and was discharged home on POD4 with follow-up appointments advised."
+              ],
+              "id": "22",
+              "question": "(Natural Language Generation) Generate a brief medical report for the patient's primary care physician summarizing the admission."
+            },
+            {
+              "answers": [
+                "Pulse: 66",
+                "Resp: 25",
+                "O2 sat: 97% RA",
+                "B/P Right Left: 133/63",
+                "Height: 65 inches",
+                "Weight: 200#",
+                "Dry skin",
+                "Intact skin",
+                "PERRLA",
+                "Supple neck",
+                "Clear lungs bilaterally",
+                "Regular rate and rhythm heart sounds",
+                "Soft abdomen",
+                "Non-distended abdomen",
+                "Non-tender abdomen",
+                "Bowel sounds +",
+                "Warm extremities",
+                "Well-perfused extremities",
+                "No edema",
+                "No varicosities",
+                "Grossly intact neuro",
+                "Pulses: Femoral Right 2+ Left: 2+ DP Right 2+ Left: 2+ ___ Right 2+ Left: 2+ Radial Right TR band Left: 2+"
+              ],
+              "id": "23",
+              "question": "(Feature Extraction) What are the key features of the patient's physical exam?"
+            },
+            {
+              "answers": [
+                "Diagnostic cardiac cath",
+                "Echo"
+              ],
+              "id": "24",
+              "question": "(Named Entity Recognition) Identify all the diagnostic tests performed during the patient's admission."
+            },
+            {
+              "answers": [
+                "He was started on Lasix and Lopressor on POD1."
+              ],
+              "id": "25",
+              "question": "(Temporal Information Extraction) When was the patient started on Lasix and Lopressor?"
+            },
+            {
+              "answers": [
+                "The patient reports feeling exertional chest tightness plus SOB on walking uphill near his house. It only happens when he exercises and never at rest. He describes pain as \"a squeeze\" and goes away on sitting down or resting."
+              ],
+              "id": "26",
+              "question": "(Paraphrasing) Can you rephrase the patient's description of chest pain?"
+            },
+            {
+              "answers": [
+                "POD stands for Postoperative Day."
+              ],
+              "id": "27",
+              "question": "(Abbreviation Expansion) Expand the abbreviation \"POD\" in the patient's hospital course."
+            },
+            {
+              "answers": [
+                "There is a relationship between the patient's HCM and LVH diagnoses."
+              ],
+              "id": "28",
+              "question": "(Relation Extraction) Is there a relationship between the patient's HCM and LVH diagnoses?"
+            },
+            {
+              "answers": [
+                "98",
+                "156",
+                "108"
+              ],
+              "id": "29",
+              "question": "(Question Answering) What is the patient's blood glucose level on?"
+            },
+            {
+              "answers": [
+                "Yes"
+              ],
+              "id": "30",
+              "question": "(Yes/No Question) Was the patient's initial surgery successful?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "10120109-DS-10",
+      "paragraphs": [
+        {
+          "context": "Service: MEDICINEAllergies: Penicillins / ibuprofenHistory of Present Illness: The patient is a ___ year old male who reports that last evening  he became suddenly SOB, sweaty, and clammy while at ___  ___. At that time he used a fan to cool off and went home. He  then went home to sleep and continued to feel short of breath.  He reports he slept on his side because of SOB when laying flat.  In addition he has back pain that he refers to has \"lung pain\"  that he rates at ___ that started at the same time as his  shortness of breath and claminess yesterday evening. In addition  he notes weakness in both lower extremities that started today.  He also notes that at baseline he has pins and needles sensation  in right lower extremity from peripheral neuropathy. This  morning he subsequently went to the an OSH emergency room and  was transferred to ___ for further work up. At the OSH patient  thought to have large bilateral PE's and trop of 0.32.   He denies any fevers, nausea, vomitting, abdominal pain,  dysuria, chest pain, history of stroke, surgery in the last 2  months, hematoschezia, epistaxis, or history hypertension or  hypertesnive crisis. The patient does endorse a history of  hemorrhoids. In addition 2 weeks ago the patient traveled to  ___ which was a 3 hour car ride but has not traveled recently.  He also endorses chronic back pain in his lumbar spine that is  currently ___.Brief Hospital Course: The patient is ___ year old male who presented with one day  history of SOB found to have bilateral PE's at outside hospital,  troponin of 0.32, sinus tachycardia on ECG, and right  ventricular strain on Echo requiring transfer to CCU for  thrombolysis.  #Bilateral Pulmonary Embolisms:  Patient noted to have bilateral pulmonary embolism noted at  outside hospital to have bilateral pulmonary embolism. The  patient was transferred to the CCU for thrombolysis. The patient was started on tPA protocol as follows tPA 10mg IV over 1  minute then 40mg over 2 hours with continued Unfractionated  heparin at 1000u/hour with transition to weight based heparin  until therapeutic. Following this, the patient was started on  xarelto 15 mg BID on ___ for 3 weeks and then continued on  20 mg xarelto daily. Ambulating on 5L O2, he gets moderately SOB  but mainatins O2 sat > 88%. He has been instructed to use O2  with any exertion. The etiology of the patient's pulmonary  embolism and lower extremity DVT's was unclear but thought to be  due to possible factor V leiden deficiency and other work up  given family history in mother of recurrent DVT's as well as  recurrent DVT's in father. Plan for outpatient follow up with  Hem/Onc to address hypercoagulable work up with Factor V Leiden  and antiphospholipid syndrome. Patient also with plan to follow  up with Dr. ___ in ___ clinic.   #Hypoxia Patient's hypoxia and oxygen requirement thought to be secondary  to bilateral pulmonary embolisms as above. The patient was  discharged with home oxygen requirement for sleep and  ambulation.  #Type II Diabetes with peripheral neuropathy Patient continued on ISS and daily lantus and humalog. Metformin  held. Gabapentin 100 mg TID continued  #HLD Patient continued on simvastatin 40 mg daily.  #Chronic Low Back Pain Patient with chronic low back pain. He was continued on tramadol  50 mg daily. TRANSITIONAL ISSUES =========================== -Follow up with Hem/Onc as outpatient with work up for Factor V  Leiden Deficiency -Follow up with Dr. ___ in ___ clinicDischarge Disposition: HomeDischarge Diagnosis: Primary Diagnosis Pulmonary embolism (bilateral) Lower extremity DVT  Secondary Hyperlipidemia Type I Diabetes chronic lower back painDischarge Condition:  Mental Status Clear and coherent. Level of Consciousness Alert and interactive. Activity Status Ambulatory - Independent.",
+          "qas": [
+            {
+              "answers": [
+                "Primary Diagnosis: Pulmonary embolism (bilateral)"
+              ],
+              "id": "1",
+              "question": "(Text Summarization) What is the patient's primary diagnosis?"
+            },
+            {
+              "answers": [
+                "The patient is a ___ year old male who reports that last evening  he became suddenly SOB, sweaty, and clammy while at ___  ___. At that time he used a fan to cool off and went home. He  then went home to sleep and continued to feel short of breath.  He reports he slept on his side because of SOB when laying flat.  In addition he has back pain that he refers to has \"lung pain\"  that he rates at ___ that started at the same time as his  shortness of breath and claminess yesterday evening. In addition  he notes weakness in both lower extremities that started today.  He also notes that at baseline he has pins and needles sensation  in right lower extremity from peripheral neuropathy. This  morning he subsequently went to the an OSH emergency room and  was transferred to ___ for further work up. At the OSH patient  thought to have large bilateral PE's and trop of 0.32.   He denies any fevers, nausea, vomitting, abdominal pain,  dysuria, chest pain, history of stroke, surgery in the last 2  months, hematoschezia, epistaxis, or history hypertension or  hypertesnive crisis. The patient does endorse a history of  hemorrhoids. In addition 2 weeks ago the patient traveled to  ___ which was a 3 hour car ride but has not traveled recently.  He also endorses chronic back pain in his lumbar spine that is  currently ___.",
+                "Following this, the patient was started on  xarelto 15 mg BID on ___ for 3 weeks and then continued on  20 mg xarelto daily. Ambulating on 5L O2, he gets moderately SOB  but mainatins O2 sat > 88%. He has been instructed to use O2  with any exertion. The etiology of the patient's pulmonary  embolism and lower extremity DVT's was unclear but thought to be  due to possible factor V leiden deficiency and other work up  given family history in mother of recurrent DVT's as well as  recurrent DVT's in father.",
+                "Patient continued on ISS and daily lantus and humalog. Metformin  held. Gabapentin 100 mg TID continued",
+                "Patient continued on simvastatin 40 mg daily.",
+                "Patient with chronic low back pain. He was continued on tramadol  50 mg daily."
+              ],
+              "id": "2",
+              "question": "(Content extraction) Which sentences in the note describe the diagnosis?"
+            },
+            {
+              "answers": [
+                "Hyperlipidemia",
+                "Type I Diabetes",
+                "Chronic lower back pain"
+              ],
+              "id": "3",
+              "question": "(Text Summarization) What are the comorbidities of the patient?"
+            },
+            {
+              "answers": [
+                "Patient continued on ISS and daily lantus and humalog. Metformin  held. Gabapentin 100 mg TID continued",
+                "Patient continued on simvastatin 40 mg daily.",
+                "Patient with chronic low back pain. He was continued on tramadol  50 mg daily."
+              ],
+              "id": "4",
+              "question": "(Content extraction) Which sentences in the note describe the comorbidities?"
+            },
+            {
+              "answers": [
+                "Unfractionated heparin",
+                "Xarelto",
+                "Gabapentin",
+                "Simvastatin",
+                "Tramadol"
+              ],
+              "id": "5",
+              "question": "(Named Entity Recognition) List all the medications mentioned in the discharge summary?"
+            },
+            {
+              "answers": [
+                "Patient continued on ISS and daily lantus and humalog. Metformin  held. Gabapentin 100 mg TID continued",
+                "Following this, the patient was started on  xarelto 15 mg BID on ___ for 3 weeks and then continued on  20 mg xarelto daily.",
+                "Patient continued on simvastatin 40 mg daily.",
+                "Patient with chronic low back pain. He was continued on tramadol  50 mg daily."
+              ],
+              "id": "6",
+              "question": "(Content extraction) Which sentences in the note describe the medications?"
+            },
+            {
+              "answers": [
+                "Troponin"
+              ],
+              "id": "7",
+              "question": "(Named Entity Recognition) List all the labs mentioned in the discharge summary?"
+            },
+            {
+              "answers": [
+                "At the OSH patient  thought to have large bilateral PE's and trop of 0.32."
+              ],
+              "id": "8",
+              "question": "(Content extraction) Which sentences in the note describe the labs?"
+            },
+            {
+              "answers": [
+                "The patient presented with one day  history of SOB found to have bilateral PE's at outside hospital,  troponin of 0.32, sinus tachycardia on ECG, and right  ventricular strain on Echo requiring transfer to CCU for  thrombolysis.",
+                "The etiology of the patient's pulmonary  embolism and lower extremity DVT's was unclear but thought to be  due to possible factor V leiden deficiency and other work up  given family history in mother of recurrent DVT's as well as  recurrent DVT's in father.",
+                "Plan for outpatient follow up with  Hem/Onc to address hypercoagulable work up with Factor V Leiden  and antiphospholipid syndrome. Patient also with plan to follow  up with Dr. ___ in ___ clinic."
+              ],
+              "id": "9",
+              "question": "(Text Summarization) Provide a brief summary of the history treatment plan for the patient?"
+            },
+            {
+              "answers": [
+                "The patient presented with one day  history of SOB found to have bilateral PE's at outside hospital,  troponin of 0.32, sinus tachycardia on ECG, and right  ventricular strain on Echo requiring transfer to CCU for  thrombolysis.",
+                "Following this, the patient was started on  xarelto 15 mg BID on ___ for 3 weeks and then continued on  20 mg xarelto daily. Ambulating on 5L O2, he gets moderately SOB  but mainatins O2 sat > 88%. He has been instructed to use O2  with any exertion.",
+                "Plan for outpatient follow up with  Hem/Onc to address hypercoagulable work up with Factor V Leiden  and antiphospholipid syndrome. Patient also with plan to follow  up with Dr. ___ in ___ clinic."
+              ],
+              "id": "10",
+              "question": "(Content extraction) Which sentences in the note describe the history treatment plan for the patient?"
+            },
+            {
+              "answers": [
+                "The patient will follow up with Hem/Onc for work up for Factor V Leiden Deficiency and antiphospholipid syndrome. The patient will also follow up with Dr. ___ in ___ clinic. The patient will continue taking xarelto for 3 weeks and then switch to 20 mg daily. He will also continue gabapentin, tramadol, and simvastatin. He will use home oxygen for sleep and ambulation."
+              ],
+              "id": "11",
+              "question": "(Text Summarization) Provide a brief summary of the future treatment plan for the patient?"
+            },
+            {
+              "answers": [
+                "The sentences that describe the future treatment plan for the patient are: 'Plan for outpatient follow up with Hem/Onc to address hypercoagulable work up with Factor V Leiden and antiphospholipid syndrome. Patient also with plan to follow up with Dr. ___ in ___ clinic. Following this, the patient was started on xarelto 15 mg BID on ___ for 3 weeks and then continued on 20 mg xarelto daily. Ambulating on 5L O2, he gets moderately SOB but mainatins O2 sat > 88%. He has been instructed to use O2 with any exertion. The patient continued on ISS and daily lantus and humalog. Metformin held. Gabapentin 100 mg TID continued. Patient continued on simvastatin 40 mg daily. Patient with chronic low back pain. He was continued on tramadol 50 mg daily.'"
+              ],
+              "id": "12",
+              "question": "(Content extraction) Which sentences in the note describe the future treatment plan for the patient?"
+            },
+            {
+              "answers": [
+                "The patient is currently taking the following medications: xarelto, gabapentin, tramadol, simvastatin, ISS, lantus, and humalog."
+              ],
+              "id": "13",
+              "question": "(Content extraction) What medications are the patient currently on?"
+            },
+            {
+              "answers": [
+                {
+                  "Diagnoses": [
+                    {
+                      "Name": "Pulmonary embolism",
+                      "Type": "Primary",
+                      "Onset": "Recent"
+                    },
+                    {
+                      "Name": "Lower extremity DVT",
+                      "Type": "Primary",
+                      "Onset": "Recent"
+                    },
+                    {
+                      "Name": "Hyperlipidemia",
+                      "Type": "Secondary",
+                      "Onset": "Unknown"
+                    },
+                    {
+                      "Name": "Type I Diabetes",
+                      "Type": "Secondary",
+                      "Onset": "Unknown"
+                    },
+                    {
+                      "Name": "Chronic lower back pain",
+                      "Type": "Secondary",
+                      "Onset": "Unknown"
+                    }
+                  ]
+                }
+              ],
+              "id": "14",
+              "question": "(Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history."
+            },
+            {
+              "answers": [
+                "Pulmonary embolism"
+              ],
+              "id": "15",
+              "question": "(Question Answering) What is the patient's primary diagnosis?"
+            },
+            {
+              "answers": [
+                "The patient presented with sudden onset shortness of breath, sweating, and clamminess while at an unknown location, which persisted even after going home. He also had lung pain and weakness in both lower extremities. He sought treatment at an emergency room and was transferred to another hospital for further workup. He was found to have bilateral pulmonary embolisms, sinus tachycardia, and right ventricular strain on Echo. He was started on a tPA protocol and transferred to the CCU for thrombolysis. He was discharged with home oxygen for sleep and ambulation."
+              ],
+              "id": "16",
+              "question": "(Text Summarization) Can you provide a brief summary of the patient's hospital course?"
+            },
+            {
+              "answers": [
+                "The patient has allergies to penicillins and ibuprofen."
+              ],
+              "id": "17",
+              "question": "(Named Entity Recognition) What allergies does the patient have?"
+            },
+            {
+              "answers": [
+                "The patient first experienced symptoms last evening."
+              ],
+              "id": "18",
+              "question": "(Temporal Information Extraction) When did the patient first experience symptoms?"
+            },
+            {
+              "answers": [
+                "There is no explicit relationship between the patient's chronic back pain and their pulmonary embolisms mentioned in the note."
+              ],
+              "id": "19",
+              "question": "(Relation Extraction) Is there a relationship between the patient's chronic back pain and their pulmonary embolisms?"
+            },
+            {
+              "answers": [
+                "tPA stands for tissue plasminogen activator."
+              ],
+              "id": "20",
+              "question": "(Clinical Concept Normalization) Can you provide a normalized name for the medication 'tPA'?"
+            },
+            {
+              "question": "(Keyword Extraction) What are the main symptoms the patient reported?",
+              "id": 21,
+              "answers": [
+                "The main symptoms the patient reported were sudden onset of shortness of breath (SOB), sweating, and clamminess, as well as lung pain and weakness in both lower extremities."
+              ]
+            },
+            {
+              "question": "(Abbreviation Expansion) What does 'SOB' stand for?",
+              "id": 22,
+              "answers": [
+                "SOB stands for shortness of breath."
+              ]
+            },
+            {
+              "question": "(Feature Extraction) What treatment plan was recommended for the patient's hypercoagulable workup?",
+              "id": 23,
+              "answers": [
+                "The plan for outpatient follow up with Hem/Onc was recommended to address hypercoagulable workup with Factor V Leiden and antiphospholipid syndrome."
+              ]
+            },
+            {
+              "question": "(Content Extraction) What is the patient's current oxygen requirement?",
+              "id": 24,
+              "answers": [
+                "The patient was discharged with home oxygen requirement for sleep and ambulation."
+              ]
+            },
+            {
+              "question": "(Text Classification) What is the patient's discharge diagnosis?",
+              "id": 25,
+              "answers": [
+                "The patient's discharge diagnosis includes primary diagnosis of bilateral pulmonary embolism and lower extremity DVT, and secondary diagnosis of hyperlipidemia, type I diabetes, and chronic lower back pain."
+              ]
+            },
+            {
+              "question": "(Named Entity Recognition) Has the patient experienced any surgeries in the past?",
+              "id": 26,
+              "answers": [
+                "The patient denies any history of surgery in the last 2 months."
+              ]
+            },
+            {
+              "question": "(Yes/No Question) Does the patient have a history of hypertension or hypertensive crisis?",
+              "id": 27,
+              "answers": [
+                "The patient denies any history of hypertension or hypertensive crisis."
+              ]
+            },
+            {
+              "question": "(Open-Ended Question) Can you provide more information about the patient's family history of DVTs?",
+              "id": 28,
+              "answers": [
+                "The patient's family history includes recurrent DVTs in both the mother and father."
+              ]
+            },
+            {
+              "question": "(Multiple-Choice Question) Which medication was held for the patient's Type II Diabetes?\na. ISS\nb. Lantus\nc. Humalog\nd. Metformin",
+              "id": 29,
+              "answers": [
+                "Metformin was held for the patient's Type II Diabetes."
+              ]
+            },
+            {
+              "question": "(Paraphrasing) Can you rephrase the patient's report of 'lung pain' in medical terminology?",
+              "id": 30,
+              "answers": [
+                "The patient reported back pain that he referred to as 'lung pain', which he rated at an intensity level of ___."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "10053872-DS-7": [
+    {
+      "section_used": [
+        "Allergies",
+        "Attending",
+        "History of Present Illness",
+        "Past Medical History",
+        "Social History",
+        "Physical Exam",
+        "Brief Hospital Course",
+        "Medications on Admission",
+        "Discharge Disposition"
+      ]
+    },
+    {
+      "question_record": [
+        "1. (Text Summarization) What is the patient's primary diagnosis?\n\n2. (Content extraction) Which sentences in the note describe the diagnosis?\n\n3. (Text Summarization) What are the comorbidities of the patient?\n\n4. (Content extraction) Which sentences in the note describe the comorbidities?\n\n5. (Named Entity Recognition) List all the medications mentioned in the discharge summary.\n\n6. (Content extraction) Which sentences in the note describe the medications?\n\n7. (Named Entity Recognition) List all the labs mentioned in the discharge summary.\n\n8. (Content extraction) Which sentences in the note describe the labs?\n\n9. (Text Summarization) Provide a brief summary of the history treatment plan for the patient?\n\n10. (Content extraction) Which sentences in the note describe the history treatment plan for the patient?\n\n",
+        "11. (Text Summarization) Provide a brief summary of the future treatment plan for the patient?\n\n12. (Content extraction) Which sentences in the note describe the future treatment plan for the patient?\n\n13. (Content extraction) What medications are the patient currently on?\n\n14. (Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history.\n\n15. (Named Entity Recognition) Identify all the medical conditions mentioned in the patient's history.\n\n16. (Text Summarization) Provide a brief summary of the patient's hospital course.\n\n17. (Clinical Concept Normalization) Normalize the medical terminology used in the patient's history to standard clinical codes.\n\n18. (Relation Extraction) Identify the relationship between the patient's uterine fibroid embolization and the development of a pseudoaneurysm.\n\n19. (Keyword Extraction) Extract all the medications prescribed to the patient during her hospital stay.\n\n20. (Temporal Information Extraction) Identify the dates of the patient's hospital admission and discharge.\n\n",
+        "21. (Natural Language Generation) Generate a discharge summary for the patient.\n\n22. (Abbreviation Expansion) Expand the abbreviation \"TTE\" used in the patient's history.\n\n23. (Feature Extraction) Extract all the symptoms reported by the patient during her hospital stay.\n\n24. (Text Classification) Classify the patient's medical conditions as chronic or acute.\n\n25. (Relation Extraction) Identify the relationship between the patient's constipation and the medications she was taking.\n\n26. (Keyword Extraction) Extract all the instructions given to the patient regarding her medications.\n\n27. (Content Extraction) Extract all the diagnostic procedures performed on the patient during her hospital stay.\n\n28. (Named Entity Recognition) Identify all the healthcare professionals mentioned in the patient's history.\n\n29. (Yes/No Question) Was the patient's pseudoaneurysm successfully treated with thrombin injection?\n\n30. (Paraphrasing) Can you rephrase the patient's complaint of \"difficulty straightening her right leg without pain\"?\n"
+      ]
+    },
+    {
+      "question_error": []
+    }
+  ],
+  "10002131-DS-16": [
+    {
+      "section_used": [
+        "Sex",
+        "Chief Complaint",
+        "History of Present Illness",
+        "Review of systems",
+        "Discharge Disposition",
+        "Discharge Instructions"
+      ]
+    },
+    {
+      "question_record": [
+        "1. (Text Summarization) What is the patient's primary diagnosis?\n\n2. (Content extraction) Which sentences in the note describe the diagnosis?\n\n3. (Text Summarization) What are the comorbidities of the patient?\n\n4. (Content extraction) Which sentences in the note describe the comorbidities?\n\n5. (Named Entity Recognition) List all the medications mentioned in the discharge summary.\n\n6. (Content extraction) Which sentences in the note describe the medications?\n\n7. (Named Entity Recognition) List all the labs mentioned in the discharge summary.\n\n8. (Content extraction) Which sentences in the note describe the labs?\n\n9. (Text Summarization) Provide a brief summary of the history treatment plan for the patient?\n\n10. (Content extraction) Which sentences in the note describe the history treatment plan for the patient?\n\n",
+        "11. (Text Summarization) Provide a brief summary of the future treatment plan for the patient?\n\n12. (Content extraction) Which sentences in the note describe the future treatment plan for the patient?\n\n13. (Content extraction) What medications are the patient currently on?\n\n14. (Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history.\n\n15. (Question Answering) What was the patient's chief complaint?\n\n16. (Text Summarization) Can you summarize the patient's medical history in a few sentences?\n\n17. (Named Entity Recognition) Can you identify all the medical conditions mentioned in the discharge summary?\n\n18. (Temporal Information Extraction) When did the patient move into the assisted living facility?\n\n19. (Relation Extraction) Is there any relation between the patient's CHF and Afib?\n\n20. (Keyword Extraction) What are the keywords that describe the patient's current condition?\n\n",
+        "21. (Abbreviation Expansion) What does TTE stand for in the discharge summary?\n\n22. (Feature Extraction) What are the significant findings from the patient's lower extremity ultrasound?\n\n23. (Content Extraction) Can you extract the patient's vital signs from the discharge summary?\n\n24. (Natural Language Generation) Can you generate a summary of the patient's hospitalization and discharge instructions?\n\n25. (Text Classification) What type of medical care is the patient being discharged to?\n\n26. (Temporal Information Extraction) When was the patient's last bowel movement?\n\n27. (Relation Extraction) Is there any relation between the patient's shortness of breath and the pleural effusions?\n\n28. (Named Entity Recognition) Can you identify any medications mentioned in the discharge summary?\n\n29. (Paraphrasing) Can you rephrase the sentence \"We decided to focus on your comfort\" in a different way?\n\n30. (Yes/No Question) Was the patient diagnosed with a fracture in the hip X-ray?\n"
+      ]
+    },
+    {
+      "question_error": []
+    }
+  ],
+  "10015785-DS-17": [
+    {
+      "section_used": [
+        "Service",
+        "Allergies",
+        "Attending",
+        "Chief Complaint",
+        "Major Surgical or Invasive Procedure",
+        "History of Present Illness",
+        "Past Medical History",
+        "Pertinent Results",
+        "Discharge Medications",
+        "Facility",
+        "Discharge Condition"
+      ]
+    },
+    {
+      "question_record": [
+        "1. (Text Summarization) What is the patient's primary diagnosis?\n\n2. (Content extraction) Which sentences in the note describe the diagnosis?\n\n3. (Text Summarization) What are the comorbidities of the patient?\n\n4. (Content extraction) Which sentences in the note describe the comorbidities?\n\n5. (Named Entity Recognition) List all the medications mentioned in the discharge summary.\n\n6. (Content extraction) Which sentences in the note describe the medications?\n\n7. (Named Entity Recognition) List all the labs mentioned in the discharge summary.\n\n8. (Content extraction) Which sentences in the note describe the labs?\n\n9. (Text Summarization) Provide a brief summary of the history treatment plan for the patient?\n\n10. (Content extraction) Which sentences in the note describe the history treatment plan for the patient?\n\n",
+        "11. (Text Summarization) Provide a brief summary of the future treatment plan for the patient?\n\n12. (Content extraction) Which sentences in the note describe the future treatment plan for the patient?\n\n13. (Content extraction) What medications are the patient currently on?\n\n14. (Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history.\n\n15. (Question Answering) What is the patient's chief complaint?\n\n16. (Natural Language Generation) Can you generate a brief summary of the patient's medical history?\n\n17. (Text Summarization) Can you summarize the imaging/studies section of the discharge summary?\n\n18. (Text Classification) Is the patient's mental status considered normal or abnormal?\n\n19. (Temporal Information Extraction) When was the patient's most recent discharge from the hospital?\n\n20. (Relation Extraction) Is there any relation between the patient's RLE pain and her Alzheimer's dementia?\n\n",
+        "21. (Named Entity Recognition) Can you identify all of the patient's medical conditions mentioned in the discharge summary?\n\n22. (Paraphrasing) Can you rephrase the sentence \"Given her age, risk of fall, and her new intracranial lesion (high risk for venous bleed), anticoagulation was deferred\"?\n\n23. (Clinical Concept Normalization) Can you normalize the medical abbreviation \"AFib\" to its full form?\n\n24. (Keyword Extraction) What are the most frequently mentioned symptoms in the discharge summary?\n\n25. (Abbreviation Expansion) Can you expand the abbreviation \"IVC\" to its full form?\n\n26. (Feature Extraction) What are the key features of the patient's medical history that may be relevant to her RLE DVT?\n\n27. (Content Extraction) Can you extract all of the medications prescribed to the patient upon discharge?\n\n28. (Text Classification) Was the patient's UA grossly positive or negative?\n\n29. (Question Answering) What is the patient's CHADSVASC score?\n\n30. (Relation Extraction) Is there any relation between the patient's chronic HCV and her RLE DVT?\n"
+      ]
+    },
+    {
+      "question_error": []
+    }
+  ],
+  "10071869-DS-19": [
+    {
+      "section_used": [
+        "Sex",
+        "Service",
+        "Allergies",
+        "Attending",
+        "Chief Complaint",
+        "Major Surgical or Invasive Procedure",
+        "History of Present Illness",
+        "Past Medical History",
+        "Social History",
+        "Family History",
+        "Physical Exam",
+        "Medications on Admission",
+        "Discharge Medications",
+        "Discharge Disposition",
+        "Discharge Diagnosis",
+        "Discharge Condition",
+        "Discharge Instructions"
+      ]
+    },
+    {
+      "question_record": [
+        "1. (Text Summarization) What is the patient's primary diagnosis?\n\n2. (Content extraction) Which sentences in the note describe the diagnosis?\n\n3. (Text Summarization) What are the comorbidities of the patient?\n\n4. (Content extraction) Which sentences in the note describe the comorbidities?\n\n5. (Named Entity Recognition) List all the medications mentioned in the discharge summary.\n\n6. (Content extraction) Which sentences in the note describe the medications?\n\n7. (Named Entity Recognition) List all the labs mentioned in the discharge summary.\n\n8. (Content extraction) Which sentences in the note describe the labs?\n\n9. (Text Summarization) Provide a brief summary of the history treatment plan for the patient?\n\n10. (Content extraction) Which sentences in the note describe the history treatment plan for the patient?\n\n",
+        "11. (Text Summarization) Provide a brief summary of the future treatment plan for the patient?\n\n12. (Content extraction) Which sentences in the note describe the future treatment plan for the patient?\n\n13. (Content extraction) What medications are the patient currently on?\n\n14. (Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history.\n\n15. (Text Classification) Can you classify the patient's diagnosis based on the discharge summary?\n\n16. (Named Entity Recognition) Can you extract all the medications mentioned in the discharge summary?\n\n17. (Text Summarization) Can you provide a summary of the patient's medical history?\n\n18. (Temporal Information Extraction) When was the patient admitted to the hospital and when did he pass away?\n\n19. (Relation Extraction) What is the relationship between the patient's Enterococcal bacteremia and Osteomyelitis?\n\n20. (Keyword Extraction) Can you identify the keywords related to the patient's respiratory distress?\n\n",
+        "21. (Content Extraction) Can you extract the patient's current medications and dosages?\n\n22. (Named Entity Recognition) Can you identify any allergies or adverse drug reactions mentioned in the discharge summary?\n\n23. (Paraphrasing) Can you rephrase the patient's chief complaint in simpler terms?\n\n24. (Clinical Concept Normalization) Can you normalize the patient's diagnosis to a standard medical code?\n\n25. (Feature Extraction) Can you extract the patient's vital signs and lab results from the discharge summary?\n\n26. (Text Classification) Can you classify the patient's overall condition at the time of discharge?\n\n27. (Abbreviation Expansion) Can you expand any medical abbreviations used in the discharge summary?\n\n28. (Natural Language Generation) Can you generate a brief summary of the patient's hospitalization and final outcome?\n\n29. (Text Summarization) Can you provide a summary of the patient's past medical history?\n\n30. (Yes/No Question) Was the patient's condition stable or deteriorating at the time of transfer to the ICU?\n"
+      ]
+    },
+    {
+      "question_error": []
+    }
+  ],
+  "10020640-DS-8": [
+    {
+      "section_used": [
+        "Allergies",
+        "Attending",
+        "Chief Complaint",
+        "History of Present Illness",
+        "Past Medical History",
+        "Social History",
+        "Family History",
+        "Medications on Admission",
+        "Discharge Disposition",
+        "Discharge Diagnosis",
+        "Discharge Condition"
+      ]
+    },
+    {
+      "question_record": [
+        "1. (Text Summarization) What is the patient's primary diagnosis?\n\n2. (Content extraction) Which sentences in the note describe the diagnosis?\n\n3. (Text Summarization) What are the comorbidities of the patient?\n\n4. (Content extraction) Which sentences in the note describe the comorbidities?\n\n5. (Named Entity Recognition) List all the medications mentioned in the discharge summary.\n\n6. (Content extraction) Which sentences in the note describe the medications?\n\n7. (Named Entity Recognition) List all the labs mentioned in the discharge summary.\n\n8. (Content extraction) Which sentences in the note describe the labs?\n\n9. (Text Summarization) Provide a brief summary of the history treatment plan for the patient?\n\n10. (Content extraction) Which sentences in the note describe the history treatment plan for the patient?\n\n",
+        "11. (Text Summarization) Provide a brief summary of the future treatment plan for the patient?\n\n12. (Content extraction) Which sentences in the note describe the future treatment plan for the patient?\n\n13. (Content extraction) What medications are the patient currently on?\n\n14. (Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history.\n\n15. (Question Answering) What was the patient's chief complaint upon admission?\n\n16. (Text Summarization) Can you provide a brief summary of the patient's medical history?\n\n17. (Temporal Information Extraction) When was the patient diagnosed with hypokalemia and pneumonia?\n\n18. (Named Entity Recognition) What medications was the patient taking upon admission?\n\n19. (Relation Extraction) Is there a correlation between the patient's diabetes and their current condition?\n\n20. (Keyword Extraction) What are the most significant keywords in the patient's medical history?\n\n",
+        "21. (Content Extraction) Can you extract the patient's current vital signs?\n\n22. (Natural Language Generation) Please generate a summary of the patient's current condition.\n\n23. (Text Classification) What is the primary diagnosis for the patient's hospitalization?\n\n24. (Abbreviation Expansion) What does \"AMS\" stand for in the patient's medical history?\n\n25. (Feature Extraction) Can you extract the patient's age and gender from the summary?\n\n26. (Paraphrasing) Can you rephrase the patient's chief complaint in simpler terms?\n\n27. (Relation Extraction) Is there a relationship between the patient's dementia and their current condition?\n\n28. (Named Entity Recognition) Can you identify any medical procedures mentioned in the summary?\n\n29. (Yes/No Question) Was the patient given vancomycin upon arrival at the hospital?\n\n30. (Question Answering) What is the patient's discharge diagnosis?\n"
+      ]
+    },
+    {
+      "question_error": []
+    }
+  ],
+  "13977966-DS-14": [
+    {
+      "section_used": [
+        "Service",
+        "History of Present Illness",
+        "Past Medical History",
+        "Social History",
+        "Physical Exam"
+      ]
+    },
+    {
+      "question_record": [
+        "1. (Text Summarization) What is the patient's primary diagnosis?\n\n2. (Content extraction) Which sentences in the note describe the diagnosis?\n\n3. (Text Summarization) What are the comorbidities of the patient?\n\n4. (Content extraction) Which sentences in the note describe the comorbidities?\n\n5. (Named Entity Recognition) List all the medications mentioned in the discharge summary.\n\n6. (Content extraction) Which sentences in the note describe the medications?\n\n7. (Named Entity Recognition) List all the labs mentioned in the discharge summary.\n\n8. (Content extraction) Which sentences in the note describe the labs?\n\n9. (Text Summarization) Provide a brief summary of the history treatment plan for the patient?\n\n10. (Content extraction) Which sentences in the note describe the history treatment plan for the patient?\n\n",
+        "11. (Text Summarization) Provide a brief summary of the future treatment plan for the patient?\n\n12. (Content extraction) Which sentences in the note describe the future treatment plan for the patient?\n\n13. (Content extraction) What medications are the patient currently on?\n\n14. (Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history.\n\n15. (Question Answering) What was the patient's initial diagnosis?\n\n16. (Natural Language Generation) Generate a brief summary of the patient's medical history.\n\n17. (Text Summarization) Can you summarize the patient's current condition in a few sentences?\n\n18. (Text Classification) Is the patient's breast cancer triple negative or positive for any receptors?\n\n19. (Temporal Information Extraction) When did the patient undergo a right colectomy?\n\n20. (Relation Extraction) Is there any relationship between the patient's breast cancer and colonic adenocarcinoma?\n\n",
+        "21. (Named Entity Recognition) Can you identify all the medical conditions the patient has been diagnosed with?\n\n22. (Paraphrasing) Can you rephrase the patient's reason for declining surgery initially?\n\n23. (Clinical Concept Normalization) Can you normalize the medical terminology used in the discharge summary?\n\n24. (Keyword Extraction) What are the most important keywords in the patient's medical history?\n\n25. (Abbreviation Expansion) What does JP stand for in \"right JP drain with sero sang\"?\n\n26. (Feature Extraction) What are the key features of the patient's breast cancer?\n\n27. (Content Extraction) Can you extract all the medications the patient has been prescribed?\n\n28. (Text Classification) Is the patient's breast cancer currently metastatic or non-metastatic?\n\n29. (Yes/No Question) Did the patient undergo surgery for her chest wall recurrences?\n\n30. (Multiple Choice) Which of the following is true about the patient's breast cancer: a) it is estrogen and progesterone positive, b) it is HER-\n"
+      ]
+    },
+    {
+      "question_error": []
+    }
+  ],
+  "10024913-DS-19": [
+    {
+      "section_used": [
+        "Sex",
+        "Service",
+        "Allergies",
+        "Attending",
+        "Chief Complaint",
+        "Major Surgical or Invasive Procedure",
+        "History of Present Illness",
+        "Family History",
+        "Physical Exam",
+        "Medications on Admission",
+        "Discharge Disposition",
+        "Discharge Diagnosis",
+        "Discharge Condition"
+      ]
+    },
+    {
+      "question_record": [
+        "1. (Text Summarization) What is the patient's primary diagnosis?\n\n2. (Content extraction) Which sentences in the note describe the diagnosis?\n\n3. (Text Summarization) What are the comorbidities of the patient?\n\n4. (Content extraction) Which sentences in the note describe the comorbidities?\n\n5. (Named Entity Recognition) List all the medications mentioned in the discharge summary.\n\n6. (Content extraction) Which sentences in the note describe the medications?\n\n7. (Named Entity Recognition) List all the labs mentioned in the discharge summary.\n\n8. (Content extraction) Which sentences in the note describe the labs?\n\n9. (Text Summarization) Provide a brief summary of the history treatment plan for the patient?\n\n10. (Content extraction) Which sentences in the note describe the history treatment plan for the patient?\n\n",
+        "11. (Text Summarization) Provide a brief summary of the future treatment plan for the patient?\n\n12. (Content extraction) Which sentences in the note describe the future treatment plan for the patient?\n\n13. (Content extraction) What medications are the patient currently on?\n\n14. (Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history.\n\n15. (Text Classification) Can you classify the patient's discharge diagnosis into primary and secondary?\n\n16. (Named Entity Recognition) Can you identify the medications prescribed to the patient during admission?\n\n17. (Text Summarization) Can you provide a brief summary of the patient's history of present illness?\n\n18. (Keyword Extraction) What are the patient's major medical conditions?\n\n19. (Relation Extraction) Is there any relationship between the patient's reported symptoms and their medical history?\n\n20. (Temporal Information Extraction) Can you identify when the patient arrived at the clinic and when they were discharged?\n\n",
+        "21. (Question Answering) What was the patient's initial blood pressure reading in the ED?\n\n22. (Clinical Concept Normalization) Can you normalize the medication names to their generic form?\n\n23. (Named Entity Recognition) Can you identify any allergies or adverse drug reactions reported by the patient?\n\n24. (Paraphrasing) Can you rephrase the patient's chief complaint in simpler language?\n\n25. (Abbreviation expansion) Can you expand the abbreviation \"SBP\" used in the summary?\n\n26. (Content extraction) Can you extract the patient's vital signs on admission to the ED?\n\n27. (Relation Extraction) Is there any relationship between the patient's reported symptoms and the medications they were taking?\n\n28. (Question Answering) Did the patient experience any chest pain or shortness of breath during their hospitalization?\n\n29. (Natural Language Generation) Can you generate a brief summary of the patient's hospitalization for a non-medical person?\n\n30. (Feature extraction) Can you extract any notable findings from the patient's physical exam upon admission?\n"
+      ]
+    },
+    {
+      "question_error": []
+    }
+  ],
+  "10172708-DS-8": [
+    {
+      "section_used": [
+        "Sex",
+        "Service",
+        "Attending",
+        "Past Medical History",
+        "Social History",
+        "Family History",
+        "Physical Exam",
+        "Pertinent Results",
+        "Brief Hospital Course",
+        "Medications on Admission",
+        "Discharge Medications",
+        "Discharge Diagnosis",
+        "Discharge Condition",
+        "Discharge Instructions"
+      ]
+    },
+    {
+      "question_record": [
+        "1. (Text Summarization) What is the patient's primary diagnosis?\n\n2. (Content extraction) Which sentences in the note describe the diagnosis?\n\n3. (Text Summarization) What are the comorbidities of the patient?\n\n4. (Content extraction) Which sentences in the note describe the comorbidities?\n\n5. (Named Entity Recognition) List all the medications mentioned in the discharge summary.\n\n6. (Content extraction) Which sentences in the note describe the medications?\n\n7. (Named Entity Recognition) List all the labs mentioned in the discharge summary.\n\n8. (Content extraction) Which sentences in the note describe the labs?\n\n9. (Text Summarization) Provide a brief summary of the history treatment plan for the patient?\n\n10. (Content extraction) Which sentences in the note describe the history treatment plan for the patient?\n\n",
+        "11. (Text Summarization) Provide a brief summary of the future treatment plan for the patient?\n\n12. (Content extraction) Which sentences in the note describe the future treatment plan for the patient?\n\n13. (Content extraction) What medications are the patient currently on?\n\n14. (Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history.\n\n15. (Text Classification) Can you classify the patient's medical history based on their past conditions?\n\n16. (Natural Language Generation) Please generate a summary of the patient's hospital course.\n\n17. (Text Summarization) Can you provide a brief summary of the patient's discharge diagnosis?\n\n18. (Named Entity Recognition) Identify all the medical conditions mentioned in the patient's history.\n\n19. (Keyword Extraction) What are the keywords related to the patient's past medical history?\n\n20. (Abbreviation Expansion) Expand the abbreviation \"CAD\" in the patient's medical history.\n\n",
+        "21. (Relation Extraction) What is the relationship between the patient's ESRD and their current treatment?\n\n22. (Temporal Information Extraction) Can you extract the duration of the patient's hospital stay from the summary?\n\n23. (Content Extraction) Extract all the medications prescribed to the patient upon discharge.\n\n24. (Paraphrasing) Can you rephrase the patient's discharge instructions in simpler language?\n\n25. (Feature Extraction) What are the key features of the patient's physical exam?\n\n26. (Question Answering) Did the patient have any neurological deficits upon examination?\n\n27. (Multiple-Choice Question) Which of the following medical conditions was NOT mentioned in the patient's medical history? A) ESRD B) COPD C) Asthma D) HTN\n\n28. (Yes/No Question) Was the patient's X-ray result positive for a fracture?\n\n29. (Open-Ended Question) What further diagnostic tests could be done to investigate the patient's back pain?\n\n30. (Clinical Concept Normalization) Can you normalize the patient's diagnosis \"lumbago\" to a more specific clinical concept?\n"
+      ]
+    },
+    {
+      "question_error": []
+    }
+  ],
+  "10139387-DS-20": [
+    {
+      "section_used": [
+        "Sex",
+        "Allergies",
+        "Attending",
+        "History of Present Illness",
+        "Family History",
+        "Physical Exam",
+        "Pertinent Results",
+        "Brief Hospital Course",
+        "Facility",
+        "Past medical history",
+        "Discharge Condition"
+      ]
+    },
+    {
+      "question_record": [
+        "1. (Text Summarization) What is the patient's primary diagnosis?\n\n2. (Content extraction) Which sentences in the note describe the diagnosis?\n\n3. (Text Summarization) What are the comorbidities of the patient?\n\n4. (Content extraction) Which sentences in the note describe the comorbidities?\n\n5. (Named Entity Recognition) List all the medications mentioned in the discharge summary.\n\n6. (Content extraction) Which sentences in the note describe the medications?\n\n7. (Named Entity Recognition) List all the labs mentioned in the discharge summary.\n\n8. (Content extraction) Which sentences in the note describe the labs?\n\n9. (Text Summarization) Provide a brief summary of the history treatment plan for the patient?\n\n10. (Content extraction) Which sentences in the note describe the history treatment plan for the patient?\n\n",
+        "11. (Text Summarization) Provide a brief summary of the future treatment plan for the patient?\n\n12. (Content extraction) Which sentences in the note describe the future treatment plan for the patient?\n\n13. (Content extraction) What medications are the patient currently on?\n\n14. (Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history.\n\n15. (Text Classification) Can you classify the patient's primary diagnosis?\n\n16. (Named Entity Recognition) Identify all the medications prescribed to the patient during admission.\n\n17. (Temporal Information Extraction) When was the patient transferred from CVICU to the floor?\n\n18. (Relation Extraction) What is the relationship between the patient's fatty liver and hyperlipidemia?\n\n19. (Text Summarization) Can you summarize the patient's hospital course in a few sentences?\n\n20. (Keyword Extraction) What are the main symptoms that led the patient to seek medical attention?\n\n",
+        "21. (Clinical Concept Normalization) Normalize the patient's diagnosis of LVH to its full form.\n\n22. (Natural Language Generation) Generate a brief medical report for the patient's primary care physician summarizing the admission.\n\n23. (Feature Extraction) What are the key features of the patient's physical exam?\n\n24. (Named Entity Recognition) Identify all the diagnostic tests performed during the patient's admission.\n\n25. (Temporal Information Extraction) When was the patient started on Lasix and Lopressor?\n\n26. (Paraphrasing) Can you rephrase the patient's description of chest pain?\n\n27. (Abbreviation Expansion) Expand the abbreviation \"POD\" in the patient's hospital course.\n\n28. (Relation Extraction) Is there a relationship between the patient's HCM and LVH diagnoses?\n\n29. (Question Answering) What is the patient's blood glucose level on \n30. (Yes/No Question) Was the patient's initial surgery successful?\n"
+      ]
+    },
+    {
+      "question_error": []
+    }
+  ],
+  "10120109-DS-10": [
+    {
+      "section_used": [
+        "Service",
+        "Allergies",
+        "History of Present Illness",
+        "Brief Hospital Course",
+        "Discharge Disposition",
+        "Discharge Diagnosis",
+        "Discharge Condition"
+      ]
+    },
+    {
+      "question_record": [
+        "1. (Text Summarization) What is the patient's primary diagnosis?\n\n2. (Content extraction) Which sentences in the note describe the diagnosis?\n\n3. (Text Summarization) What are the comorbidities of the patient?\n\n4. (Content extraction) Which sentences in the note describe the comorbidities?\n\n5. (Named Entity Recognition) List all the medications mentioned in the discharge summary.\n\n6. (Content extraction) Which sentences in the note describe the medications?\n\n7. (Named Entity Recognition) List all the labs mentioned in the discharge summary.\n\n8. (Content extraction) Which sentences in the note describe the labs?\n\n9. (Text Summarization) Provide a brief summary of the history treatment plan for the patient?\n\n10. (Content extraction) Which sentences in the note describe the history treatment plan for the patient?\n\n",
+        "11. (Text Summarization) Provide a brief summary of the future treatment plan for the patient?\n\n12. (Content extraction) Which sentences in the note describe the future treatment plan for the patient?\n\n13. (Content extraction) What medications are the patient currently on?\n\n14. (Text Summarization) List all the diagnoses and determine whether they are from recent onsite visits or past medical history.\n\n15. (Question Answering) What is the patient's primary diagnosis?\n\n16. (Text Summarization) Can you provide a brief summary of the patient's hospital course?\n\n17. (Named Entity Recognition) What allergies does the patient have?\n\n18. (Temporal Information Extraction) When did the patient first experience symptoms?\n\n19. (Relation Extraction) Is there a relationship between the patient's chronic back pain and their pulmonary embolisms?\n\n20. (Clinical Concept Normalization) Can you provide a normalized name for the medication \"tPA\"?\n\n",
+        "21. (Keyword Extraction) What are the main symptoms the patient reported?\n\n22. (Abbreviation Expansion) What does \"SOB\" stand for?\n\n23. (Feature Extraction) What treatment plan was recommended for the patient's hypercoagulable workup?\n\n24. (Content Extraction) What is the patient's current oxygen requirement?\n\n25. (Text Classification) What is the patient's discharge diagnosis?\n\n26. (Named Entity Recognition) Has the patient experienced any surgeries in the past \n27. (Yes/No Question) Does the patient have a history of hypertension or hypertensive crisis?\n\n28. (Open-Ended Question) Can you provide more information about the patient's family history of DVTs?\n\n29. (Multiple-Choice Question) Which medication was held for the patient's Type II Diabetes?\n    a. ISS\n    b. Lantus\n    c. Humalog\n    d. Metformin\n\n30. (Paraphrasing) Can you rephrase the patient's report of \"lung pain\" in medical terminology?\n"
+      ]
+    },
+    {
+      "question_error": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+Begin_Title
+Admission Date
+Discharge Date
+Date of Birth
+Sex
+Service
+Allergies/Allergy
+Attending
+Chief Complaint
+Major Surgical or Invasive Procedure
+History of Present Illness/History of the present illness
+Review of System
+Past Medical History/Medical History
+Social History
+Family History
+Physical Exam
+Pertinent Result/Pertinent
+Brief Hospital Course/Hospital Course
+Medication on Admission/Medications on Admission
+Discharge Medication/Medication on Discharge/Medications on Discharge
+Discharge Disposition/Disposition on Discharge/Dispositions on Discharge
+Facility
+Discharge Diagnosis/Diagnosis on Discharge/Discharge Diagnoses/Diagnoses on Discharge
+Discharge Condition/Condition on Discharge/Conditions on Discharge
+Discharge Instruction/Instruction on Discharge/Instructions on Discharge
+Followup Instruction/Follow up/Follow-up
